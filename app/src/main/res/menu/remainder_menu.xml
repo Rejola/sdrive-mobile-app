@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_date"
+        android:title="@string/addImage"
+        android:icon="@drawable/ic_calendar_white"
+        app:showAsAction="always|collapseActionView"
+        android:visible="true"/>
+
+    <item
+        android:id="@+id/action_month"
+        android:title="@string/thisMonth"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/action_upcoming"
+        android:title="@string/upcoming"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/action_past"
+        android:title="@string/past"
+        android:visible="true" />
+</menu>

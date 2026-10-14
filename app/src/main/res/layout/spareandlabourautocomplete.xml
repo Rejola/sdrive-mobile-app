@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="@dimen/dp5">
+
+
+    <LinearLayout
+        android:id="@+id/descriptionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fillViewport="true">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <AutoCompleteTextView
+                    android:id="@+id/searchSpareAutoCompleteTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="@dimen/dp5"
+                    android:background="@drawable/edittextbggray"
+                    android:clickable="true"
+                    android:hint="Search Spares"
+                    android:maxLines="1"
+                    android:paddingLeft="@dimen/dp10"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/text777"
+                    android:textSize="@dimen/sp16" />
+
+
+                <AutoCompleteTextView
+                    android:id="@+id/searchLabourAutoCompleteTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="@dimen/dp5"
+                    android:background="@drawable/edittextbggray"
+                    android:clickable="true"
+                    android:hint="Search Labour"
+                    android:maxLines="1"
+                    android:paddingLeft="@dimen/dp10"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/text777"
+                    android:textSize="@dimen/sp16" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:id="@+id/addSpareLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/cardMarginTop"
+                        android:layout_marginBottom="5dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:visibility="visible">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/dp5"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/dp20"
+                                android:layout_height="@dimen/dp20"
+                                android:background="@drawable/ic_spares" />
+
+                            <com.android.theme.font.FontTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dp10"
+                                android:layout_weight="1"
+                                android:text="@string/spares"
+                                android:textColor="@color/textDark"
+                                android:textSize="@dimen/sp18" />
+
+                        </LinearLayout>
+
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:background="@color/text_color" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <android.support.v7.widget.RecyclerView
+                                android:id="@+id/spareRecyclerView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/addLabourLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/cardMarginTop"
+                        android:layout_marginBottom="5dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:visibility="visible">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/dp5"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/dp20"
+                                android:layout_height="@dimen/dp20"
+                                android:background="@drawable/ic_labour" />
+
+                            <com.android.theme.font.FontTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dp10"
+                                android:layout_weight="1"
+                                android:text="@string/labours"
+                                android:textColor="@color/textDark"
+                                android:textSize="@dimen/sp18" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:background="@color/text_color" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <android.support.v7.widget.RecyclerView
+                                android:id="@+id/labourRecyclerView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/totalLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/dp1"
+                            android:layout_marginTop="@dimen/dp10"
+                            android:layout_marginBottom="@dimen/dp10"
+                            android:background="@color/app_bg"
+                            android:visibility="gone" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <com.android.theme.font.FontTextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/labourSubCost"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="@dimen/sp16" />
+
+
+                            <com.android.theme.font.FontTextView
+                                android:id="@+id/labourCostTextView"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dp10"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:text="Rs 150"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="@dimen/sp14" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dp5"
+                            android:orientation="horizontal">
+
+                            <com.android.theme.font.FontTextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/cGST"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="@dimen/sp16" />
+
+
+                            <com.android.theme.font.FontTextView
+                                android:id="@+id/labourCGSTTextView"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dp10"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:text="Rs 150"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="@dimen/sp14" />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dp5"
+                            android:orientation="horizontal">
+
+                            <com.android.theme.font.FontTextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/sGST"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="@dimen/sp16" />
+
+
+                            <com.android.theme.font.FontTextView
+                                android:id="@+id/labourSGSTTextView"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dp10"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:text="Rs 150"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="@dimen/sp14" />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dp5"
+                            android:orientation="horizontal">
+
+                            <com.android.theme.font.FontTextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/spareSubCost"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="@dimen/sp16" />
+
+
+                            <com.android.theme.font.FontTextView
+                                android:id="@+id/spareCostTextView"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dp10"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:text="Rs 150"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="@dimen/sp14" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dp5"
+                            android:orientation="horizontal">
+
+                            <com.android.theme.font.FontTextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/cGST"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="@dimen/sp16" />
+
+
+                            <com.android.theme.font.FontTextView
+                                android:id="@+id/spareCGSTTextView"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dp10"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:text="Rs 150"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="@dimen/sp14" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dp5"
+                            android:orientation="horizontal">
+
+                            <com.android.theme.font.FontTextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/sGST"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="@dimen/sp16" />
+
+
+                            <com.android.theme.font.FontTextView
+                                android:id="@+id/spareSGSTTextView"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dp10"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:text="Rs 150"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="@dimen/sp14" />
+
+
+                        </LinearLayout>
+
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/dp1"
+                            android:layout_marginTop="@dimen/dp10"
+                            android:layout_marginBottom="@dimen/dp10"
+                            android:background="@color/app_bg" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/dp30"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <com.android.theme.font.FontTextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/totalCost"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="@dimen/sp16" />
+
+
+                            <com.android.theme.font.FontTextView
+                                android:id="@+id/totalCostTextView"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dp10"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:text="Rs 150"
+                                android:textColor="@android:color/holo_red_dark"
+                                android:textSize="@dimen/sp16"
+                                app:fontPath="@string/typeface_bold" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <com.android.theme.font.FontTextView
+                        android:id="@+id/addSpareAndLabour"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/addSpareLabour"
+                        android:visibility="visible" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </android.support.v4.widget.NestedScrollView>
+
+        <com.android.theme.font.FontButton
+            android:id="@+id/updateButton"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/buttonprimaryeffect"
+            android:padding="@dimen/dp10"
+            android:text="@string/addButton"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+    <com.android.theme.font.FontButton
+        android:id="@+id/retryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonprimaryeffect"
+        android:text="@string/retry"
+        android:textSize="@dimen/sp14"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+    <com.android.theme.font.FontTextView
+        android:id="@+id/noResultFound"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/no_results_found"
+        android:visibility="gone" />
+
+</FrameLayout>

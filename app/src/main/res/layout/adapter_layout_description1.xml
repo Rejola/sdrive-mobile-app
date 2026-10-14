@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/spareandlabourbg"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_marginRight="@dimen/dp10"
+            android:padding="5dp">
+
+
+            <com.android.theme.font.FontTextView
+                android:id="@+id/descriptionTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/oilChange"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_marginTop="@dimen/dp10"
+                >
+
+
+                <com.android.theme.font.FontTextView
+                    android:id="@+id/cGstAmountTextView"
+                    android:layout_width="0dp"
+                    android:layout_weight=".5"
+                    android:layout_marginTop="@dimen/dp10"
+                    android:textSize="@dimen/sp12"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_color" />
+
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_marginLeft="@dimen/dp10"
+                    android:layout_gravity="center"
+                    android:layout_height="@dimen/dp10"
+                    android:layout_marginTop="@dimen/dp5"
+                    android:layout_marginRight="@dimen/dp10"
+                    android:background="@color/text_color" />
+
+                <com.android.theme.font.FontTextView
+                    android:id="@+id/sGstText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_marginTop="@dimen/dp10"
+                    android:layout_weight=".5"
+                    android:gravity="right"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/sp12" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/dp15"
+                android:layout_weight="1">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5">
+
+
+
+                    <com.android.theme.font.FontTextView
+                        android:id="@+id/quantityCountTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="Qty "
+                        android:textSize="@dimen/sp12"
+
+                        android:textColor="@color/text_color"
+                        android:singleLine="true" />
+
+                    <com.android.theme.font.FontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="x"
+                        android:layout_marginRight="@dimen/dp10"
+                        android:textColor="@color/text444"
+                        android:textSize="12sp" />
+
+                    <com.android.theme.font.FontTextView
+                        android:id="@+id/rateTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="price"
+                        android:textSize="@dimen/sp12"
+                        android:textColor="@color/text_color"
+                        android:singleLine="true" />
+
+
+
+                </LinearLayout>
+
+
+
+                <View
+                    android:id="@+id/lineView"
+                    android:layout_width="0.5dp"
+                    android:layout_marginLeft="@dimen/dp10"
+                    android:layout_gravity="center"
+                    android:layout_height="@dimen/dp10"
+                    android:layout_marginRight="@dimen/dp10"
+                    android:background="@color/text_color" />
+
+                <com.android.theme.font.FontTextView
+                    android:id="@+id/totalAmountTextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+
+                    android:gravity="right"
+                    android:textColor="@color/text_color"
+                    android:textSize="12sp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <View
+            android:id="@+id/spareAndLabourListView"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="@dimen/dp5"
+            android:background="@color/text_color" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.sdrive.workshop.app.dev",
+  "variantName": "DEVDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "properties": [],
+      "versionCode": 12,
+      "versionName": "1.12",
+      "enabled": true,
+      "outputFile": "app-DEV-debug.apk"
+    }
+  ]
+}

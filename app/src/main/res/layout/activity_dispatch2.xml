@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="5dp">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/checkLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fillViewport="true">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:id="@+id/addSpareLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp5"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/cardMargin"
+                            app:cardCornerRadius="@dimen/dp5"
+                            app:cardElevation="@dimen/dp2">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/dp5"
+                                    android:orientation="horizontal"
+                                    android:padding="@dimen/dp10"
+                                    android:paddingLeft="@dimen/dp10"
+                                    android:paddingRight="@dimen/dp10">
+
+                                    <ImageView
+                                        android:layout_width="@dimen/dp20"
+                                        android:layout_height="@dimen/dp20"
+                                        android:layout_gravity="center_vertical"
+                                        android:background="@drawable/ic_spares" />
+
+                                    <com.android.theme.font.FontTextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="@dimen/dp25"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="@dimen/dp10"
+                                        android:gravity="center_vertical"
+                                        android:text="@string/spares"
+                                        android:textColor="@color/colorPrimary"
+                                        android:textSize="18sp" />
+
+
+                                </LinearLayout>
+
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0.5dp"
+                                    android:layout_marginTop="@dimen/dp5"
+                                    android:background="@color/text_color" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+
+                                    android:padding="@dimen/cardPadding">
+
+                                    <android.support.v7.widget.RecyclerView
+                                        android:id="@+id/spareRecyclerView"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content" />
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/addLabourLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp5"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/cardMargin"
+                            app:cardCornerRadius="@dimen/dp5"
+                            app:cardElevation="@dimen/dp2">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/dp5"
+                                    android:orientation="horizontal"
+                                    android:padding="@dimen/dp10"
+                                    android:paddingLeft="@dimen/dp10"
+                                    android:paddingRight="@dimen/dp10">
+
+                                    <ImageView
+                                        android:layout_width="@dimen/dp20"
+                                        android:layout_height="@dimen/dp20"
+                                        android:layout_gravity="center_vertical"
+                                        android:background="@drawable/ic_labour" />
+
+                                    <com.android.theme.font.FontTextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="@dimen/dp25"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="@dimen/dp10"
+                                        android:gravity="center_vertical"
+                                        android:text="@string/labours"
+                                        android:textColor="@color/colorPrimary"
+                                        android:textSize="18sp" />
+
+
+                                </LinearLayout>
+
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0.5dp"
+                                    android:layout_marginTop="@dimen/dp5"
+                                    android:background="@color/text_color" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:padding="@dimen/cardPadding">
+
+                                    <android.support.v7.widget.RecyclerView
+                                        android:id="@+id/labourRecyclerView"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content" />
+
+                                </LinearLayout>
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </android.support.v4.widget.NestedScrollView>
+
+            <com.android.theme.font.FontButton
+                android:id="@+id/stockreqButton"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+
+                android:background="@drawable/buttonprimaryeffect"
+                android:padding="@dimen/dp10"
+                android:text="Purchase Request"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+            <com.android.theme.font.FontButton
+                android:id="@+id/updateButton"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/dp10"
+                android:layout_height="40dp"
+                android:textAllCaps="false"
+                android:background="@drawable/buttonprimaryeffect"
+                android:padding="@dimen/dp10"
+                android:text="@string/update"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <com.android.theme.font.FontButton
+        android:id="@+id/retryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:background="@drawable/buttonprimaryeffect"
+        android:text="@string/retry"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp14"
+        android:visibility="gone" />
+
+
+
+    <com.android.theme.font.FontTextView
+        android:id="@+id/noResultFound"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+
+        android:text="@string/no_results_found"
+        android:visibility="gone" />
+
+</FrameLayout>

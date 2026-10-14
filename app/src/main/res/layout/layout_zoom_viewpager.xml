@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.creatah.automobile.dealer.widgets.ImageZoom.ImageViewTouch
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/carimageView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/deleteLayout"
+        android:orientation="horizontal"
+        android:background="@color/transparen_black"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:textColor="@color/textWhite"/>
+
+    </LinearLayout>
+
+</FrameLayout>

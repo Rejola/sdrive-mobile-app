@@ -1,0 +1,61 @@
+{
+  "api": {
+    "apiservice": {
+      "serviceUrl": "http://creatah.com/dev/sdrive/",
+      "apiEnpoint": "api/workshop/v1/index.php/",
+      "appConfig": "appConfig",
+      "imageEndPoint": "images/",
+      "WorkshopLogin": "login",
+      "GetHomeDetails" : "home",
+      "ForgotPassword": "forget_password",
+      "UpdateGCMId": "getJobCardListupdategcmid",
+      "getJobCardList": "getAllJobcardList",
+      "CustomerDetails":"getCustomerDetails",
+      "AddNewBooking" : "createJobcard",
+      "BookingDetails": "getJobcardDetailsById",
+      "EditBooking": "editJobcard",
+      "GetBookingImageList": "viewJobcardImageGallery",
+      "AddImage": "addJobcardImage",
+      "DeleteImage": "deleteJobcardImage",
+      "GetCheckList": "getJobcardChecklist",
+      "UpdateVerifyCheckList": "updateJobcardChecklist",
+      "UpdateBookingStatus": "updateJobcardStatus",
+      "GetInstantServiceList": "view_all_instance_service_list",
+      "UpdateCheckList": "verifyJobcardChecklist",
+      "AddEmployee": "add_employee",
+      "GetEmployeeList": "view_employee_list_by_workshop_id",
+      "DeleteEmployee": "delete_employee",
+      "EditEmployee": "update_employee",
+      "GetEnquiryList": "view_all_enquiry_list",
+      "AcknowledgementBooking" : "updateCustomerServiceAcknowledgement",
+      "AddRemainder": "add_service_reminder",
+      "UpdateRemainder": "update_reminder",
+      "DeleteRemainder": "delete_reminder",
+      "GetRemainderList": "view_all_reminder",
+      "DeleteBooking" : "delete_details_by_booking_id",
+      "GetCustomerList": "view_all_customer_list",
+      "AddCheckInWorkList": "updateJobcardSpareLabour",
+      "GetBookingList": "view_booking_service_by_dealer_id",
+      "GetCheckInWorkList" : "view_all_checkin_spare_labour_list",
+      "DeleteCheckInWorkList": "delete_checklist_spare_labour",
+      "GetBookingAmount": "view_all_spare_labour_amount_list",
+      "UpdateInspectionAmount": "update_spare_labour_qty_cost",
+      "UpdateWorkCheckList": "updateSpareLabourStatus",
+      "CustomerSearch": "getcustomer_number",
+      "SpareList": "getSpareList",
+      "LabourList": "getLabourList",
+      "GetCheckInSpareList": "getJobcardSpareLabourDetaills"
+    },
+    "apikey": {
+      "access_token": "72a57f585e0b42cf8e66930c4318d006",
+      "user_agent": "AmericanEagle-Android",
+      "newrelic": "AA4e79e4ace100a38bc85a36274eb8bfe633bd33bc",
+      "card_io": "8b41693a251c4a639e55c58cb1a53601"
+    },
+    "googleAPIService": {
+      "default_navigation": "https://maps.google.com/maps?saddr=",
+      "geocoder_latlng": "https://maps.googleapis.com/maps/api/geocode/json?latlng=",
+      "getcoder_address": "https://maps.googleapis.com/maps/api/geocode/json?address="
+    }
+  }
+}

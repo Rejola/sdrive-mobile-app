@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:theme="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_rowLL"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp15"
+        android:layout_marginLeft="@dimen/dp20"
+        android:layout_marginRight="@dimen/dp20"
+        >
+
+
+        <com.android.theme.font.FontTextView
+            android:id="@+id/rowText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="text"
+            android:layout_weight=".8"
+            android:textColor="@color/fontColor"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:layout_gravity="right"
+            android:gravity="right">
+
+            <ImageView
+
+                android:id="@+id/rowIcon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/dp12"
+        android:layout_marginRight="@dimen/dp12"
+        android:background="@color/view_color">
+
+    </View>
+
+    <!--   <TextView
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:layout_gravity="center"
+           android:layout_marginLeft="30dp"
+           android:background="@color/colorAccent"
+           />-->
+
+</LinearLayout>

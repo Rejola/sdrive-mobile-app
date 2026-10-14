@@ -1,0 +1,9 @@
+R_DEF: Internal format may change without notice
+local
+string app_name
+string app_not_available
+string cancel_button
+string latest_version
+string local_api_file_name
+string new_version_launched
+string update_button

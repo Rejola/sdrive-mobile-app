@@ -1,0 +1,393 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sdrive.workshop.app.dev"
+4    android:versionCode="12"
+5    android:versionName="1.12" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="27" />
+9-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:5:5-67
+11-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:6:5-79
+12-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:7:5-80
+13-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:7:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:8:5-81
+14-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.CALL_PHONE" />
+15-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:9:5-69
+15-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:9:22-66
+16
+17    <!-- Required by older versions of Google Play services to create GCM registration tokens -->
+18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+18-->[com.google.android.gms:play-services-gcm:15.0.0] C:\Users\gnana\.gradle\caches\transforms-2\files-2.1\10b633cb60a9eb0d6cc2c9f11bda4d11\play-services-gcm-15.0.0\AndroidManifest.xml:23:5-82
+18-->[com.google.android.gms:play-services-gcm:15.0.0] C:\Users\gnana\.gradle\caches\transforms-2\files-2.1\10b633cb60a9eb0d6cc2c9f11bda4d11\play-services-gcm-15.0.0\AndroidManifest.xml:23:22-79
+19
+20    <uses-feature
+20-->[com.google.android.gms:play-services-maps:15.0.0] C:\Users\gnana\.gradle\caches\transforms-2\files-2.1\9464566263580841b056b3f2c1651b5b\play-services-maps-15.0.0\AndroidManifest.xml:26:5-28:35
+21        android:glEsVersion="0x00020000"
+21-->[com.google.android.gms:play-services-maps:15.0.0] C:\Users\gnana\.gradle\caches\transforms-2\files-2.1\9464566263580841b056b3f2c1651b5b\play-services-maps-15.0.0\AndroidManifest.xml:27:9-41
+22        android:required="true" />
+22-->[com.google.android.gms:play-services-maps:15.0.0] C:\Users\gnana\.gradle\caches\transforms-2\files-2.1\9464566263580841b056b3f2c1651b5b\play-services-maps-15.0.0\AndroidManifest.xml:28:9-32
+23
+24    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+24-->[:commonframework] E:\rejola\Android\sdrive_work_shop\commonframework\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-81
+24-->[:commonframework] E:\rejola\Android\sdrive_work_shop\commonframework\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-78
+25
+26    <application
+26-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:11:5-151:19
+27        android:name="com.creatah.automobile.dealer.AutomobileApplication"
+27-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:12:9-46
+28        android:allowBackup="true"
+28-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:13:9-35
+29        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+29-->[com.android.support:support-compat:28.0.0] C:\Users\gnana\.gradle\caches\transforms-2\files-2.1\4801c80ee2f26dea1786dc8f145e743b\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+30        android:debuggable="true"
+31        android:icon="@mipmap/appicon"
+31-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:14:9-39
+32        android:label="@string/app_name"
+32-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:15:9-41
+33        android:roundIcon="@mipmap/appicon"
+33-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:16:9-44
+34        android:supportsRtl="true"
+34-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:17:9-35
+35        android:theme="@style/AppTheme" >
+35-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:18:9-40
+36        <activity android:name="com.creatah.automobile.dealer.activity.QuickSearch" />
+36-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:19:9-67
+36-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:19:19-55
+37        <activity android:name="com.creatah.automobile.dealer.activity.SplashActivity" >
+37-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:20:9-26:20
+37-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:20:19-58
+38            <intent-filter>
+38-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:21:13-25:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:22:17-69
+39-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:22:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:24:17-77
+41-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:24:27-74
+42            </intent-filter>
+43        </activity>
+44        <activity
+44-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:27:9-29:58
+45            android:name="com.creatah.automobile.dealer.activity.LoginActivity"
+45-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:28:13-51
+46            android:windowSoftInputMode="adjustResize" />
+46-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:29:13-55
+47        <activity android:name="com.creatah.automobile.dealer.activity.HomeActivity" />
+47-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:30:9-59
+47-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:30:19-56
+48        <activity android:name="com.creatah.automobile.dealer.activity.EmployeeListActivity" />
+48-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:31:9-67
+48-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:31:19-64
+49        <activity android:name="com.creatah.automobile.dealer.activity.ContactUsActivity" />
+49-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:32:9-64
+49-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:32:19-61
+50        <activity
+50-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:33:9-35:58
+51            android:name="com.creatah.automobile.dealer.activity.AddEmployeeActivity"
+51-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:34:13-57
+52            android:windowSoftInputMode="adjustResize" />
+52-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:35:13-55
+53        <activity android:name="com.creatah.automobile.dealer.activity.EmployeeDetailsActivity" />
+53-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:36:9-70
+53-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:36:19-67
+54        <activity android:name="com.creatah.automobile.dealer.activity.CompleteBookingActivity" />
+54-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:37:9-70
+54-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:37:19-67
+55        <activity android:name="com.creatah.automobile.dealer.activity.MenuRatingListActivity" />
+55-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:38:9-69
+55-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:38:19-66
+56        <activity android:name="com.creatah.automobile.dealer.activity.CompletedDetailsActivity" />
+56-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:39:9-71
+56-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:39:19-68
+57        <activity android:name="com.creatah.automobile.dealer.activity.InProgerssBookingActivity" />
+57-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:40:9-72
+57-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:40:19-69
+58        <activity android:name="com.creatah.automobile.dealer.activity.InstantServiceActivity" />
+58-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:41:9-69
+58-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:41:19-66
+59        <activity
+59-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:42:9-44:58
+60            android:name="com.creatah.automobile.dealer.activity.AddBookingActivity"
+60-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:43:13-56
+61            android:windowSoftInputMode="adjustResize" />
+61-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:44:13-55
+62        <activity android:name="com.creatah.automobile.dealer.activity.DigitalSignatureActivity" />
+62-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:45:9-71
+62-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:45:19-68
+63        <activity
+63-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:46:9-48:58
+64            android:name="com.creatah.automobile.dealer.activity.AddSpareAndLabourActivity"
+64-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:47:13-63
+65            android:windowSoftInputMode="adjustResize" />
+65-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:48:13-55
+66        <activity android:name="com.creatah.automobile.dealer.activity.AppUpdateActivity" />
+66-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:49:9-64
+66-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:49:19-61
+67        <activity
+67-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:50:9-52:58
+68            android:name="com.creatah.automobile.dealer.activity.EstimateActivity"
+68-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:51:13-54
+69            android:windowSoftInputMode="adjustResize" />
+69-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:52:13-55
+70        <activity
+70-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:53:9-55:70
+71            android:name="com.creatah.automobile.dealer.activity.CheckListActivity"
+71-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:54:13-55
+72            android:windowSoftInputMode="stateUnchanged|adjustPan" />
+72-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:55:13-67
+73        <activity android:name="com.creatah.automobile.dealer.activity.VechileReadyActivity" />
+73-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:56:9-67
+73-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:56:19-64
+74        <activity android:name="com.creatah.automobile.dealer.activity.DealerBookingsActivity" />
+74-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:57:9-69
+74-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:57:19-66
+75        <activity android:name="com.creatah.automobile.dealer.activity.BookingDetailsActivity" />
+75-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:58:9-69
+75-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:58:19-66
+76        <activity android:name="com.creatah.automobile.dealer.activity.ImageListActivity" />
+76-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:59:9-64
+76-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:59:19-61
+77        <activity android:name="com.creatah.automobile.dealer.activity.ImageZoomActivity" />
+77-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:60:9-64
+77-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:60:19-61
+78        <activity
+78-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:61:9-63:58
+79            android:name="com.creatah.automobile.dealer.activity.AddRemainderActivity"
+79-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:62:13-58
+80            android:windowSoftInputMode="adjustResize" />
+80-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:63:13-55
+81        <activity android:name="com.creatah.automobile.dealer.activity.ReminderListActivity" />
+81-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:64:9-67
+81-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:64:19-64
+82        <activity android:name="com.creatah.automobile.dealer.activity.ReminderDetailsActivity" />
+82-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:65:9-70
+82-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:65:19-67
+83        <activity android:name="com.creatah.automobile.dealer.activity.UserBookingActivity" />
+83-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:66:9-66
+83-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:66:19-63
+84        <activity android:name="com.creatah.automobile.dealer.activity.ExistingBookingActivity" />
+84-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:67:9-70
+84-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:67:19-67
+85        <activity android:name="com.creatah.automobile.dealer.activity.RatingsActivity" /> <!-- <activity android:name=".activity.RatingsDetailsActivity" /> -->
+85-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:68:9-62
+85-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:68:19-59
+86        <activity
+86-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:69:9-71:58
+87            android:name="com.creatah.automobile.dealer.activity.NewBookingActivity"
+87-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:70:13-56
+88            android:windowSoftInputMode="adjustResize" />
+88-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:71:13-55
+89        <activity
+89-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:72:9-74:58
+90            android:name="com.creatah.automobile.dealer.activity.RepairDescriptionActivity"
+90-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:73:13-63
+91            android:windowSoftInputMode="adjustResize" />
+91-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:74:13-55
+92        <activity android:name="com.creatah.automobile.dealer.activity.ImageCropperActivity" />
+92-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:75:9-67
+92-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:75:19-64
+93        <activity
+93-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:76:9-78:58
+94            android:name="com.creatah.automobile.dealer.activity.AddActionActivity"
+94-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:77:13-55
+95            android:windowSoftInputMode="adjustResize" />
+95-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:78:13-55
+96        <activity
+96-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:79:9-81:70
+97            android:name="com.creatah.automobile.dealer.activity.VerifyCheckListActivity"
+97-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:80:13-61
+98            android:windowSoftInputMode="stateUnchanged|adjustPan" />
+98-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:81:13-67
+99        <activity android:name="com.creatah.automobile.dealer.activity.UserBookingDetailActivity" />
+99-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:82:9-72
+99-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:82:19-69
+100        <activity android:name="com.creatah.automobile.dealer.activity.InstantDetailsActivity" />
+100-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:83:9-69
+100-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:83:19-66
+101        <activity android:name="com.creatah.automobile.dealer.activity.EnquiryDetailsActivity" />
+101-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:84:9-69
+101-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:84:19-66
+102        <activity android:name="com.creatah.automobile.dealer.activity.CustomerListActivity" />
+102-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:85:9-67
+102-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:85:19-64
+103        <activity android:name="com.creatah.automobile.dealer.activity.AboutUsActivity" />
+103-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:86:9-62
+103-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:86:19-59
+104        <activity
+104-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:87:9-89:55
+105            android:name="com.creatah.automobile.dealer.activity.AssignEmployeeActivity"
+105-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:88:13-60
+106            android:theme="@style/Theme.UserDialog" />
+106-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:89:13-52
+107        <activity
+107-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:90:9-92:55
+108            android:name="com.creatah.automobile.dealer.activity.CaptureSignatureActivity"
+108-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:91:13-62
+109            android:theme="@style/Theme.UserDialog" />
+109-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:92:13-52
+110        <activity android:name="com.creatah.automobile.dealer.activity.WorkCheckListActivity" />
+110-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:93:9-68
+110-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:93:19-65
+111        <activity android:name="com.creatah.automobile.dealer.activity.BillAmountActivity" />
+111-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:94:9-65
+111-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:94:19-62
+112        <activity android:name="com.creatah.automobile.dealer.activity.CustomerSearchActivity" />
+112-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:95:9-69
+112-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:95:19-66
+113        <activity
+113-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:96:9-98:55
+114            android:name="com.creatah.automobile.dealer.activity.AddSubSpareLabourActivity"
+114-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:97:13-63
+115            android:theme="@style/Theme.UserDialog" />
+115-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:98:13-52
+116
+117        <receiver android:name="com.creatah.automobile.dealer.listener.PackageReplacedReceiver" >
+117-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:100:9-104:20
+117-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:100:19-67
+118            <intent-filter>
+118-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:101:13-103:29
+119                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+119-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:102:17-84
+119-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:102:25-81
+120            </intent-filter>
+121        </receiver> <!-- [START gcm_receiver] -->
+122        <receiver
+122-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:105:9-114:20
+123            android:name="com.google.android.gms.gcm.GcmReceiver"
+123-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:106:13-66
+124            android:exported="true"
+124-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:107:13-36
+125            android:permission="com.google.android.c2dm.permission.SEND" >
+125-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:108:13-73
+126            <intent-filter>
+126-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:109:13-113:29
+127                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+127-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:110:17-81
+127-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:110:25-78
+128
+129                <category android:name="gcm.play.android.samples.com.gcmquickstart" />
+129-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:112:17-87
+129-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:112:27-84
+130            </intent-filter>
+131        </receiver>
+132
+133        <service
+133-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:116:9-122:19
+134            android:name="com.creatah.automobile.dealer.listener.MyGcmListenerService"
+134-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:117:13-58
+135            android:exported="false" >
+135-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:118:13-37
+136            <intent-filter>
+136-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:119:13-121:29
+137                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+137-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:110:17-81
+137-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:110:25-78
+138            </intent-filter>
+139        </service> <!-- [END gcm_receiver] -->
+140        <!-- [START instanceId_listener] -->
+141        <service
+141-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:124:9-130:19
+142            android:name="com.creatah.automobile.dealer.listener.MyInstanceIDListenerService"
+142-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:125:13-65
+143            android:exported="false" >
+143-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:126:13-37
+144            <intent-filter>
+144-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:127:13-129:29
+145                <action android:name="com.google.android.gms.iid.InstanceID" />
+145-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:128:17-80
+145-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:128:25-77
+146            </intent-filter>
+147        </service>
+148        <service
+148-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:131:9-133:40
+149            android:name="com.creatah.automobile.dealer.listener.RegistrationIntentService"
+149-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:132:13-63
+150            android:exported="false" /> <!-- [END instanceId_listener] -->
+150-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:133:13-37
+151        <service android:name="com.creatah.automobile.dealer.service.AppInfoUpdateService" />
+151-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:134:9-65
+151-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:134:18-62
+152
+153        <receiver android:name="com.creatah.automobile.dealer.listener.PackageReplacedReceiver" >
+153-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:100:9-104:20
+153-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:100:19-67
+154            <intent-filter>
+154-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:101:13-103:29
+155                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+155-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:102:17-84
+155-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:102:25-81
+156            </intent-filter>
+157        </receiver>
+158        <receiver
+158-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:141:9-143:38
+159            android:name="com.creatah.automobile.dealer.receiver.AlarmManagerReceiver"
+159-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:142:13-58
+160            android:enabled="true" />
+160-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:143:13-35
+161
+162        <meta-data
+162-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:145:9-147:55
+163            android:name="com.google.android.geo.API_KEY"
+163-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:146:13-58
+164            android:value="@string/google_maps_key" />
+164-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:147:13-52
+165        <meta-data
+165-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:148:9-150:72
+166            android:name="io.fabric.ApiKey"
+166-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:149:13-44
+167            android:value="75c37d0e2b6a44c542f74900fb4d622a69c390d9" />
+167-->E:\rejola\Android\sdrive_work_shop\app\src\main\AndroidManifest.xml:150:13-69
+168
+169        <activity
+169-->[com.google.android.gms:play-services-auth:15.0.0] C:\Users\gnana\.gradle\caches\transforms-2\files-2.1\e4049506e2496fd64839e38d05e238aa\play-services-auth-15.0.0\AndroidManifest.xml:23:9-27:75
+170            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+170-->[com.google.android.gms:play-services-auth:15.0.0] C:\Users\gnana\.gradle\caches\transforms-2\files-2.1\e4049506e2496fd64839e38d05e238aa\play-services-auth-15.0.0\AndroidManifest.xml:24:13-93
+171            android:excludeFromRecents="true"
+171-->[com.google.android.gms:play-services-auth:15.0.0] C:\Users\gnana\.gradle\caches\transforms-2\files-2.1\e4049506e2496fd64839e38d05e238aa\play-services-auth-15.0.0\AndroidManifest.xml:25:13-46
+172            android:exported="false"
+172-->[com.google.android.gms:play-services-auth:15.0.0] C:\Users\gnana\.gradle\caches\transforms-2\files-2.1\e4049506e2496fd64839e38d05e238aa\play-services-auth-15.0.0\AndroidManifest.xml:26:13-37
+173            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+173-->[com.google.android.gms:play-services-auth:15.0.0] C:\Users\gnana\.gradle\caches\transforms-2\files-2.1\e4049506e2496fd64839e38d05e238aa\play-services-auth-15.0.0\AndroidManifest.xml:27:13-72
+174        <!--
+175            Service handling Google Sign-In user revocation. For apps that do not integrate with
+176            Google Sign-In, this service will never be started.
+177        -->
+178        <service
+178-->[com.google.android.gms:play-services-auth:15.0.0] C:\Users\gnana\.gradle\caches\transforms-2\files-2.1\e4049506e2496fd64839e38d05e238aa\play-services-auth-15.0.0\AndroidManifest.xml:33:9-36:110
+179            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+179-->[com.google.android.gms:play-services-auth:15.0.0] C:\Users\gnana\.gradle\caches\transforms-2\files-2.1\e4049506e2496fd64839e38d05e238aa\play-services-auth-15.0.0\AndroidManifest.xml:34:13-89
+180            android:exported="true"
+180-->[com.google.android.gms:play-services-auth:15.0.0] C:\Users\gnana\.gradle\caches\transforms-2\files-2.1\e4049506e2496fd64839e38d05e238aa\play-services-auth-15.0.0\AndroidManifest.xml:35:13-36
+181            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+181-->[com.google.android.gms:play-services-auth:15.0.0] C:\Users\gnana\.gradle\caches\transforms-2\files-2.1\e4049506e2496fd64839e38d05e238aa\play-services-auth-15.0.0\AndroidManifest.xml:36:13-107
+182
+183        <activity
+183-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\gnana\.gradle\caches\transforms-2\files-2.1\e27488c1fb6dc575c908df6f84847cfc\play-services-base-15.0.1\AndroidManifest.xml:23:9-26:75
+184            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+184-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\gnana\.gradle\caches\transforms-2\files-2.1\e27488c1fb6dc575c908df6f84847cfc\play-services-base-15.0.1\AndroidManifest.xml:24:13-79
+185            android:exported="false"
+185-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\gnana\.gradle\caches\transforms-2\files-2.1\e27488c1fb6dc575c908df6f84847cfc\play-services-base-15.0.1\AndroidManifest.xml:25:13-37
+186            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+186-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\gnana\.gradle\caches\transforms-2\files-2.1\e27488c1fb6dc575c908df6f84847cfc\play-services-base-15.0.1\AndroidManifest.xml:26:13-72
+187
+188        <meta-data
+188-->[com.google.android.gms:play-services-basement:15.0.1] C:\Users\gnana\.gradle\caches\transforms-2\files-2.1\a00d39f0ac0003674762a0141ded0388\play-services-basement-15.0.1\AndroidManifest.xml:23:9-25:69
+189            android:name="com.google.android.gms.version"
+189-->[com.google.android.gms:play-services-basement:15.0.1] C:\Users\gnana\.gradle\caches\transforms-2\files-2.1\a00d39f0ac0003674762a0141ded0388\play-services-basement-15.0.1\AndroidManifest.xml:24:13-58
+190            android:value="@integer/google_play_services_version" />
+190-->[com.google.android.gms:play-services-basement:15.0.1] C:\Users\gnana\.gradle\caches\transforms-2\files-2.1\a00d39f0ac0003674762a0141ded0388\play-services-basement-15.0.1\AndroidManifest.xml:25:13-66
+191    </application>
+192
+193</manifest>

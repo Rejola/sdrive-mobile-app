@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sdrive.workshop.app.dev"
+    android:versionCode="12"
+    android:versionName="1.12" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="27" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <!-- Required by older versions of Google Play services to create GCM registration tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:name="com.creatah.automobile.dealer.AutomobileApplication"
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/appicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/appicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.creatah.automobile.dealer.activity.QuickSearch" />
+        <activity android:name="com.creatah.automobile.dealer.activity.SplashActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.creatah.automobile.dealer.activity.LoginActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name="com.creatah.automobile.dealer.activity.HomeActivity" />
+        <activity android:name="com.creatah.automobile.dealer.activity.EmployeeListActivity" />
+        <activity android:name="com.creatah.automobile.dealer.activity.ContactUsActivity" />
+        <activity
+            android:name="com.creatah.automobile.dealer.activity.AddEmployeeActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name="com.creatah.automobile.dealer.activity.EmployeeDetailsActivity" />
+        <activity android:name="com.creatah.automobile.dealer.activity.CompleteBookingActivity" />
+        <activity android:name="com.creatah.automobile.dealer.activity.MenuRatingListActivity" />
+        <activity android:name="com.creatah.automobile.dealer.activity.CompletedDetailsActivity" />
+        <activity android:name="com.creatah.automobile.dealer.activity.InProgerssBookingActivity" />
+        <activity android:name="com.creatah.automobile.dealer.activity.InstantServiceActivity" />
+        <activity
+            android:name="com.creatah.automobile.dealer.activity.AddBookingActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name="com.creatah.automobile.dealer.activity.DigitalSignatureActivity" />
+        <activity
+            android:name="com.creatah.automobile.dealer.activity.AddSpareAndLabourActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name="com.creatah.automobile.dealer.activity.AppUpdateActivity" />
+        <activity
+            android:name="com.creatah.automobile.dealer.activity.EstimateActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.creatah.automobile.dealer.activity.CheckListActivity"
+            android:windowSoftInputMode="stateUnchanged|adjustPan" />
+        <activity android:name="com.creatah.automobile.dealer.activity.VechileReadyActivity" />
+        <activity android:name="com.creatah.automobile.dealer.activity.DealerBookingsActivity" />
+        <activity android:name="com.creatah.automobile.dealer.activity.BookingDetailsActivity" />
+        <activity android:name="com.creatah.automobile.dealer.activity.ImageListActivity" />
+        <activity android:name="com.creatah.automobile.dealer.activity.ImageZoomActivity" />
+        <activity
+            android:name="com.creatah.automobile.dealer.activity.AddRemainderActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name="com.creatah.automobile.dealer.activity.ReminderListActivity" />
+        <activity android:name="com.creatah.automobile.dealer.activity.ReminderDetailsActivity" />
+        <activity android:name="com.creatah.automobile.dealer.activity.UserBookingActivity" />
+        <activity android:name="com.creatah.automobile.dealer.activity.ExistingBookingActivity" />
+        <activity android:name="com.creatah.automobile.dealer.activity.RatingsActivity" /> <!-- <activity android:name=".activity.RatingsDetailsActivity" /> -->
+        <activity
+            android:name="com.creatah.automobile.dealer.activity.NewBookingActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.creatah.automobile.dealer.activity.RepairDescriptionActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name="com.creatah.automobile.dealer.activity.ImageCropperActivity" />
+        <activity
+            android:name="com.creatah.automobile.dealer.activity.AddActionActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.creatah.automobile.dealer.activity.VerifyCheckListActivity"
+            android:windowSoftInputMode="stateUnchanged|adjustPan" />
+        <activity android:name="com.creatah.automobile.dealer.activity.UserBookingDetailActivity" />
+        <activity android:name="com.creatah.automobile.dealer.activity.InstantDetailsActivity" />
+        <activity android:name="com.creatah.automobile.dealer.activity.EnquiryDetailsActivity" />
+        <activity android:name="com.creatah.automobile.dealer.activity.CustomerListActivity" />
+        <activity android:name="com.creatah.automobile.dealer.activity.AboutUsActivity" />
+        <activity
+            android:name="com.creatah.automobile.dealer.activity.AssignEmployeeActivity"
+            android:theme="@style/Theme.UserDialog" />
+        <activity
+            android:name="com.creatah.automobile.dealer.activity.CaptureSignatureActivity"
+            android:theme="@style/Theme.UserDialog" />
+        <activity android:name="com.creatah.automobile.dealer.activity.WorkCheckListActivity" />
+        <activity android:name="com.creatah.automobile.dealer.activity.BillAmountActivity" />
+        <activity android:name="com.creatah.automobile.dealer.activity.CustomerSearchActivity" />
+        <activity
+            android:name="com.creatah.automobile.dealer.activity.AddSubSpareLabourActivity"
+            android:theme="@style/Theme.UserDialog" />
+
+        <receiver android:name="com.creatah.automobile.dealer.listener.PackageReplacedReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver> <!-- [START gcm_receiver] -->
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="gcm.play.android.samples.com.gcmquickstart" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.creatah.automobile.dealer.listener.MyGcmListenerService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service> <!-- [END gcm_receiver] -->
+        <!-- [START instanceId_listener] -->
+        <service
+            android:name="com.creatah.automobile.dealer.listener.MyInstanceIDListenerService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.creatah.automobile.dealer.listener.RegistrationIntentService"
+            android:exported="false" /> <!-- [END instanceId_listener] -->
+        <service android:name="com.creatah.automobile.dealer.service.AppInfoUpdateService" />
+
+        <receiver android:name="com.creatah.automobile.dealer.listener.PackageReplacedReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.creatah.automobile.dealer.receiver.AlarmManagerReceiver"
+            android:enabled="true" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="75c37d0e2b6a44c542f74900fb4d622a69c390d9" />
+
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+            Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

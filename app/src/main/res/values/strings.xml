@@ -1,0 +1,458 @@
+<resources>
+    <string name="gcm_defaultSenderId">187726740124</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDreXFQ8ahgS_3-H8K9W-XNlq_Vgeih0XE</string>
+    <string name="featureUnderDevelopment">Feature under development</string>
+    <string name="app_share_text">Check out SDrive Workshop App now https:&#47;&#47;play.google.com&#47;store&#47;apps&#47;details&#63;id=com.sdrive.workshop.app</string>
+    <string name="updateSkip"><u>Skip</u></string>
+    <string name="newVersion">New Version</string>
+    <!--Login Activity-->
+    <string name="username">EMAIL</string>
+    <string name="password">PASSWORD</string>
+    <string name="login">Login</string>
+    <string name="forgotPassword">Forgot Password</string>
+    <string name="enterPassword">Please Enter Password</string>
+    <string name="enterEmail">Please Enter Email</string>
+    <string name="invalidEmail">Invalid Email</string>
+
+
+    <!--add new Booking Activity-->
+    <string name="addNewBooking">+ Add New</string>
+    <string name="newBooking">New Booking</string>
+
+
+    <!-- Dialog -->
+    <string name="alert">Alert</string>
+    <string name="warning">Warning</string>
+    <string name="server_failed">Connection Failed</string>
+    <string name="server_unavailable">Please check your internet connection</string>
+    <string name="tryAgainLater">Please Try Again Later</string>
+    <string name="open_settings">Open Settings</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">Ok</string>
+    <string name="generalService">General Service</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="please_wait">Please wait</string>
+    <string name="loading">Loading</string>
+    <string name="success">Success</string>
+    <string name="failed">Failed</string>
+    <string name="title_of_data_connection">Connection Failed</string>
+    <string name="title_of_data_message">No Internet Connection </string>
+    <string name="logout_alert">Are you sure want to logout?</string>
+    <string name="smspermission">SMS Permission</string>
+    <string name="smspermissiondes">Allow SMS permission to SDrive Workshop in app settings</string>
+    <string name="no_results_found">No results found</string>
+    <string name="pleaseSelectSpareAndLabours">Please Select Spares And Labours</string>
+    <string name="no_service_found">No Job Cards found</string>
+    <string name="no_image_found">No Image found</string>
+    <string name="no_check_in_image_found">No Check In Images found</string>
+    <string name="no_reminder_found">No Reminders Found</string>
+    <string name="no_customer_found">No Customer Found</string>
+    <string name="no_employee_found">No Employee Found</string>
+    <string name="no_check_list_found">No check list found</string>
+    <string name="no_job_card_found">No Job Cards Found</string>
+    <string name="errorOccurred">Some error occurred. Please try again!</string>
+
+    <string name="callpermission">CALL Permission</string>
+    <string name="callpermissiondesc">Allow CALL permission to SDrive Workshop in app settings</string>
+    <string name="userBookingEnquiries">Bookings &amp; Enquiries</string>
+
+
+    <string name="rs">\u20B9</string>
+
+    <string-array name="nav_drawer_items">
+
+        <item>Customers</item>
+        <item>Employees</item>
+        <item>Quick Search</item>
+        <item>Support</item>
+        <item>Settings</item>
+        <item>Feedbacks</item>
+        <item>Share</item>
+    </string-array>
+
+    <array name="navDrawerImageDrawable">
+
+        <item>@drawable/ic_customers</item>
+        <item>@drawable/ic_employees</item>
+        <item>@drawable/ic_search</item>
+        <item>@drawable/ic_support</item>
+        <item>@drawable/ic_setting</item>
+        <item>@drawable/ic_feedbacks</item>
+        <item>@drawable/ic_share</item>
+    </array>
+
+
+    <!--Employee List Activity-->
+    <string name="EmployeeTitle">Employees</string>
+    <string name="employeeDetailsTitle">Employee Details</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="deleteAlert">Are you sure want to delete this employee?</string>
+    <!--Add employee Activity-->
+    <string name="addEmployeeTitle">Add Employee</string>
+    <string name="employeeName">Name</string>
+    <string name="qs_spare">Enter Spare Name</string>
+    <string name="employeeNo">Mobile No</string>
+    <string name="addButton">Add</string>
+    <string name="quicksearch">Search</string>
+    <string name="retry">Retry</string>
+    <string name="updateButton">Update</string>
+    <string name="enterEmployeeName">Please Enter Employee Name</string>
+    <string name="enterMobileNo">Please Enter Mobile No</string>
+    <string name="invalidMobilNo">Invalid Mobile No</string>
+    <string name="selectDesignation">Select Designation</string>
+    <string name="pleaseSelectDesignation">Please Select Designation</string>
+    <string name="designation">Designation</string>
+
+    <!--Completed Details Activity-->
+    <string name="customerDetails">Customer Details</string>
+    <string name="spares">Spares</string>
+    <string name="vehicleDetails">Vehicle Details</string>
+    <string name="serviceDetails">Service Details</string>
+    <string name="dateAndTime">Delivery Date and Time</string>
+    <string name="vehiclePickup">Vehicle Pickup</string>
+
+    <string name="completedTitle">Service Completed</string>
+    <string name="descriptionDetails">Write Your Instructions</string>
+    <string name="customerName">Customer Name</string>
+    <string name="pleaseEnterCusName">Please Enter Customer Name</string>
+    <string name="specialCharacter">Special Characters And Numbers Cannot Accept</string>
+
+    <string name="emailAddress">Please Enter Email Address</string>
+    <string name="enterAddress">Please Enter Address</string>
+    <string name="stateCode">Please Enter State code</string>
+    <string name="serialInvalid">Invalid Serial No </string>
+
+    <string name="invalidStateCode">Invalid State Code</string>
+    <string name="invalidAreaCode">Invalid Area Code</string>
+    <string name="areaCode">Please Enter Area code</string>
+    <string name="serialText">Please Enter Serial code</string>
+    <string name="invalidSerialCode">Invalid Serial Code</string>
+    <string name="modelsNotAvailables">Models Not Available</string>
+
+
+    <string name="serialNo">Please Enter Serial No</string>
+    <string name="customerNo">Mobile No</string>
+    <string name="mobileVehicle">Mobie No / Vehicle No</string>
+    <string name="phoneNo">Phone No</string>
+    <string name="serviceDate">Service Date</string>
+    <string name="deliveryDate">Delivery Date</string>
+
+    <string name="followUpDate">Follow-Up Date</string>
+    <string name="make">Make</string>
+    <string name="model">Model</string>
+    <string name="vehicleNo">Vehicle No</string>
+    <string name="serviceType">Service Type</string>
+    <string name="finalBill">Final Bill</string>
+    <string name="serviceProgress">Service Under Progress</string>
+    <string name="serviceCompleted">Service Completed</string>
+    <string name="serviceCheckIn">Check In Completed</string>
+    <string name="serviceInspectionComp">Inspection Completed</string>
+    <string name="serviceVehicleReady">Vehicle Ready</string>
+    <string name="serviceVehicleDelivered">Vehicle Delivered</string>
+    <string name="serviceName">Service Name</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+    <string name="pickupAddress">Pick Up Address</string>
+    <string name="mfgYear">MFG. Year</string>
+    <string name="fuelType">Fuel Type</string>
+    <string name="variant">Vehicle Variant</string>
+    <!--InProgress Activity-->
+    <string name="inProgressTitle">Service Inprogress</string>
+    <string name="open">Open</string>
+    <string name="checkinAndEstimate">Check In &amp; Estimate</string>
+    <string name="addSignature">Please add signature</string>
+    <string name="approximateDate">Please Select Approximate Date</string>
+    <string name="approximateTime">Please Select Approximate Time</string>
+
+
+    <string name="usersEnquiry">User\'s Enquiries</string>
+    <string name="instantService">Instant Service</string>
+    <string name="home">Home</string>
+    <string name="filter">Filter</string>
+    <string name="clearFilter">Clear Filter</string>
+
+
+    <string-array name="statusArray">
+        <item>Queued For Service</item>
+        <item>Check In Completed</item>
+        <item>Service Under Progress</item>
+        <item>Vehicle Ready</item>
+        <item>All</item>
+    </string-array>
+
+    <!--Add Booking-->
+    <string name="pickUp">Pick Up</string>
+    <string name="noPickUp">No Pick Up</string>
+    <string name="pickUpDate">Pick Up Date</string>
+    <string name="pleasePickUpDate">Please Select Pick Up Date</string>
+    <string name="pleasePickUpTime">Please Select Pick Up Time</string>
+    <string name="pickUpTime">Pick Up Time</string>
+    <string name="insExpiryDate">Insurance Expiry Date</string>
+    <string name="addBooking">New Booking</string>
+    <string name="editBooking">Update Booking</string>
+    <string name="searchCustomer">Search Customer</string>
+    <string name="selectEmployee">Select Employee</string>
+    <string name="selectPickUpPerson">Select Pick Up Person</string>
+    <string name="pleaseSelectPickUpPerson">Please Select Pick Up Person</string>
+    <string name="selectAdvisor">Select Advisor</string>
+    <string name="serviceAdvisor">Service Advisor</string>
+    <string name="pleaseSelectAdvisor">Please Select Advisor</string>
+    <string name="AdvisorName">Advisor Name</string>
+    <string name="selectDate">Select Date</string>
+    <string name="pleaseSelectDate">Please Select Date</string>
+    <string name="pleaseSelectDeliveryDate">Please Select Delivery Date</string>
+    <string name="pleaseSelectDeliveryTime">Please Select Delivery Time</string>
+    <string name="invalidDeliveryDate">Delivery Date Should Be Greater Then Service Date</string>
+
+    <string name="pleaseSelectTime">Please Select Time</string>
+    <string name="pleaseSelectNextService">Please Select Next Service Date</string>
+
+
+    <string name="pleaseSelectMake">Please Select Make</string>
+    <string name="selectMake">Select Make</string>
+
+    <string name="selectModel">Select Model</string>
+    <string name="pleaseSelectModel">Please Select Model</string>
+    <string name="selectService">Select Service</string>
+    <string name="pleaseSelectService">Please Select Service</string>
+
+    <string name="selectInsurance">Select insurance</string>
+    <string name="petrol">Petrol</string>
+    <string name="diesel">Diesel</string>
+    <string name="electric">Electric</string>
+    <string name="gas">Gas</string>
+    <string name="car">Car</string>
+    <string name="bike">Bike</string>
+    <string name="create">Add Booking</string>
+    <string name="enter_description">Please Enter Description</string>
+    <string name="pickUpAddress">Please Enter Pick Up Address</string>
+    <string name="addCustomer">Add New Customer</string>
+
+    <!--Digital Sign Activity-->
+    <string name="digitalSignature">Digital Signature</string>
+    <string name="clickHereToSign">Click Here To Sign</string>
+    <string name="loginAlert">Are you sure want to log out</string>
+    <string name="external_dir">Signature</string>
+    <string name="termsAndCondition"><u>I Agree to the terms and conditions</u></string>
+
+    <!--Estimates Activity-->
+    <string name="estimates">Estimate</string>
+    <string name="addMore">Add More</string>
+    <string name="addMores">+Add More</string>
+    <string name="estimateBillAmount">Estimate Bill Amount</string>
+    <string name="update">Update</string>
+    <string name="calculate">Calculate Sum</string>
+    <string name="estimateAmt">Estimate Amount</string>
+    <string name="description">Customer Instructions</string>
+
+    <string name="amount">Amount</string>
+    <string name="labour">Labour</string>
+    <string name="labours">Labours</string>
+    <string name="qty">Qty</string>
+    <string name="rate">Rate</string>
+    <string name="gst">Gst</string>
+    <string name="price">Price</string>
+    <string name="cGST">CGST</string>`
+    <string name="sGST">SGST</string>
+
+    <string name="cGSTPercentage">CGST %</string>`
+    <string name="sGSTPercentage">SGST %</string>
+
+
+    <string name="oilChange">Oil Change</string>
+    <string name="spareLabour">Spare</string>
+    <!--Check List-->
+    <string name="checkListTitle">Check List</string>
+    <string name="checkList">Check List</string>
+    <string name="checkInImage">Check In Images</string>
+    <string name="noCheckListFound">No Check List Found</string>
+    <string name="spareAndLabours">Spares And Labours</string>
+    <string name="jobCard">Job Card Check</string>
+    <string name="testDrive">Test Drive</string>
+    <string name="interiorPressure">Interior Cleanliness Check</string>
+    <string name="tyrePressure">Tyre Pressure Check</string>
+    <string name="mirrorPosition">Mirror In Position</string>
+    <string name="kmsDriven">kms Driven</string>
+    <string name="anyOthers">Any Others</string>
+    <string name="notAvailable">Not Available</string>
+    <string name="checkInKey">check_in</string>
+
+    <!--Vehicle Ready activity-->
+    <string name="finalAmount">vehicle Ready</string>
+    <string name="finalAmt">Final Bill Amount</string>
+    <string name="finaldeliveryDate">Delivery Date</string>
+    <string name="timedeliveryDate">Delivery Time</string>
+    <string name="nextservice">Next Service Date</string>
+    <string name="vehicleDrop">Vehicle Drop</string>
+    <string name="submit">Submit</string>
+    <string name="labourSubCost">Labour Sub Cost</string>
+    <string name="spareSubCost">Spare Sub Cost</string>
+    <string name="totalCost">Total Cost</string>
+    <string name="toDate">To Date</string>
+    <string name="fromDate">From Date</string>
+    <string name="addSpareLabour">Add Spare and Labours</string>
+    <string name="addSpareLabourContactAdmin">Contact Admin to add Spares and Labours</string>
+
+    <!--Dealer Booking Activity-->
+    <string name="dealerBookingTitle">Dealer Booking</string>
+    <string name="checkInCompleted">Check In Completed</string>
+    <string name="inspectionCompleted">Inspection Completed</string>
+    <string name="serviceUnderProgress">Service Under Progress</string>
+    <string name="vehicleReady">Vehicle Ready</string>
+    <string name="vehicleDelivered">Vehicle Delivered</string>
+    <string name="queuedService">Queued For Service</string>
+    <string name="ALL">All</string>
+
+    <string name="checkInCompletedKey">check_in_completed</string>
+    <string name="inspectionCompletedKey">inspection_completed</string>
+    <string name="serviceUnderProgressKey">service_under_progress</string>
+    <string name="vehicleReadyKey">vehicle_ready</string>
+    <string name="vehicleDeliveredKey">vehicle_delivered</string>
+    <string name="queuedVehicleKey">queued_for_service</string>
+
+
+    <!--About us-->
+    <string name="aboutUS">About Us</string>
+
+
+    <!--Booking Details-->
+    <string name="details">Details</string>
+    <string name="checkInReportL">Check-In Report</string>
+    <string name="InspectionCompletedL">Inspection Completed</string>
+    <string name="ServiceUnderProgressL">Service Under Progress</string>
+    <string name="vehicleReadyL">vehicle Ready</string>
+    <string name="vehicleDeliveredL">vehicle Delivered</string>
+    <string name="assignEmployee">Assign</string>
+    <string name="deliveryDateDetail">Delivery Date &amp; Time</string>
+    <string name="approximateDeliveryDateDetail">Approximate Delivery Date &amp; Time</string>
+
+    <string name="deliveryTimeDetail">Delivery Time</string>
+    <string name="noNewDesAdded">No new description added</string>
+    <string name="enterYourEmailAddress">Enter your email address</string>
+    <string name="noDataUpdated">No data updated</string>
+    <string name="noSpareLabourFound">No spare and labours found</string>
+    <string name="addSpareErr">Please add Spare or Labour</string>
+    <string name="noMoreServiceFound">No More Service Found</string>
+    <string name="noJobCardsFound">No More Job Cards Found</string>
+    <string name="noCustomersFound">No More Customers Found</string>
+    <string name="noCheckList">No Check List Found</string>
+    <string name="noSearchResultFound">No Search Result Found</string>
+
+    <string name="noMoreReminderFound">No More Reminder Found</string>
+    <string name="noMoreCustomerFound">No More Customer Found</string>
+    <string name="noMoreEmployeeFound">No More Employee Found</string>
+    <string name="enterBillAmount">Please Enter Final Bill Amount</string>
+    <!--Image List Activity-->
+    <string name="imageList">Image Gallery</string>
+    <string name="addImage">Add Image</string>
+    <string name="storagepermission">Storage Permission</string>
+    <string name="storagepermissiondesc">Allow Storage permission to SDrive Workshop App in app settings</string>
+
+
+    <!--Add Reminder Activity-->
+    <string name="addRemainder">Add Reminder</string>
+    <string name="followUpDateR">Follow up date</string>
+    <string name="selectFollowUpDateR">Please Select Follow Up Date</string>
+
+    <!--Reminder List Activity-->
+    <string name="remainderTitle">Service Reminders</string>
+    <string name="notes">Notes</string>
+    <string name="thisMonth">This month</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="past">Past</string>
+
+    <string name="thisMonthKey">this_month</string>
+    <string name="upcomingKey">up_comming</string>
+    <string name="pastKey">past_date</string>
+
+    <!--Reminder Details-->
+    <string name="remainderDetailsTitle">Details</string>
+    <string name="remainderDetails">Service Reminder Details</string>
+
+    <string name="addService">Add Service</string>
+    <string name="deleteService">Delete Service</string>
+    <string name="deleteR">Delete</string>
+    <string name="deleteAlertR">Are you sure want to delete?</string>
+    <string name="acknowledgement">Acknowledge</string>
+
+    <!--Home Activity-->
+    <string name="HomeLeads">Leads</string>
+    <string name="HomeServiceInProg">Service InProgress</string>
+    <string name="HomeCompleted">Completed</string>
+    <string name="reminderToday">Reminder Today</string>
+    <string name="HomeRating">Avg. Rating</string>
+
+
+    <!--Existing Booking Activity-->
+    <string name="existingBooking">Existing Booking</string>
+
+
+    <!--ContactUs Activity-->
+
+    <string name="contactAdministrative">Administrative Contact</string>
+    <string name="contactTechnical">Technical Contact</string>
+    <string name="mobile">Mobile No</string>
+
+    <string-array name="menuName">
+        <item>Open</item>
+        <item>Check in &amp; Estimate</item>
+        <item>Service Inprogress</item>
+        <item>Vehicle Ready</item>
+    </string-array>
+
+
+    <array name="menuIcons">
+        <item>@drawable/ic_open</item>
+        <item>@drawable/ic_checkinandestimate</item>
+        <item>@drawable/ic_serviceinprogress_home</item>
+        <item>@drawable/ic_vehicle_ready_home</item>
+    </array>
+
+    <string-array name="countText">
+        <item>Queued For Service count</item>
+        <item>Check in &amp; Estimate count</item>
+        <item>Service Inprogress count</item>
+        <item>Vehicle Ready count</item>
+    </string-array>
+
+
+    <string name="userBooking">User Bookings</string>
+
+
+    <!--Add Acton-->
+    <string name="actionTitle">Actions</string>
+    <string name="action">Action</string>
+
+
+    <!-- Customer List Activity -->
+    <string name="customerTitle">Customers</string>
+
+    <string name="QuickSearchTitle">Quick Search</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="typeface_bold">fonts/FuturaMdBT-Bold.ttf</string>
+
+    <string name="chooseVehicle">Choose Vehicle</string>
+
+    <string name="title_activity_dispatch_update">DispatchUpdate</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_dispatch">Dispatch</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_dispatch_delivery">DispatchDelivery</string>
+    <string name="title_activity_dispatch_adapter">DispatchAdapter</string>
+
+
+</resources>

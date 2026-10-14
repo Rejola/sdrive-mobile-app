@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.creatah.automobile.dealer">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name=".AutomobileApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/appicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/appicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.QuickSearch"></activity>
+        <activity android:name=".activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.LoginActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".activity.HomeActivity" />
+        <activity android:name=".activity.EmployeeListActivity" />
+        <activity android:name=".activity.ContactUsActivity" />
+        <activity
+            android:name=".activity.AddEmployeeActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".activity.EmployeeDetailsActivity" />
+        <activity android:name=".activity.CompleteBookingActivity" />
+        <activity android:name=".activity.MenuRatingListActivity" />
+        <activity android:name=".activity.CompletedDetailsActivity" />
+        <activity android:name=".activity.InProgerssBookingActivity" />
+        <activity android:name=".activity.InstantServiceActivity" />
+        <activity
+            android:name=".activity.AddBookingActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".activity.DigitalSignatureActivity" />
+        <activity
+            android:name=".activity.AddSpareAndLabourActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".activity.AppUpdateActivity" />
+        <activity
+            android:name=".activity.EstimateActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".activity.CheckListActivity"
+            android:windowSoftInputMode="stateUnchanged|adjustPan" />
+        <activity android:name=".activity.VechileReadyActivity" />
+        <activity android:name=".activity.DealerBookingsActivity" />
+        <activity android:name=".activity.BookingDetailsActivity" />
+        <activity android:name=".activity.ImageListActivity" />
+        <activity android:name=".activity.ImageZoomActivity" />
+        <activity
+            android:name=".activity.AddRemainderActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".activity.ReminderListActivity" />
+        <activity android:name=".activity.ReminderDetailsActivity" />
+        <activity android:name=".activity.UserBookingActivity" />
+        <activity android:name=".activity.ExistingBookingActivity" />
+        <activity android:name=".activity.RatingsActivity" /> <!-- <activity android:name=".activity.RatingsDetailsActivity" /> -->
+        <activity
+            android:name=".activity.NewBookingActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".activity.RepairDescriptionActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".activity.ImageCropperActivity" />
+        <activity
+            android:name=".activity.AddActionActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".activity.VerifyCheckListActivity"
+            android:windowSoftInputMode="stateUnchanged|adjustPan" />
+        <activity android:name=".activity.UserBookingDetailActivity" />
+        <activity android:name=".activity.InstantDetailsActivity" />
+        <activity android:name=".activity.EnquiryDetailsActivity" />
+        <activity android:name=".activity.CustomerListActivity" />
+        <activity android:name=".activity.AboutUsActivity" />
+        <activity
+            android:name=".activity.AssignEmployeeActivity"
+            android:theme="@style/Theme.UserDialog" />
+        <activity
+            android:name=".activity.CaptureSignatureActivity"
+            android:theme="@style/Theme.UserDialog" />
+        <activity android:name=".activity.WorkCheckListActivity" />
+        <activity android:name=".activity.BillAmountActivity" />
+        <activity android:name=".activity.CustomerSearchActivity" />
+        <activity
+            android:name=".activity.AddSubSpareLabourActivity"
+            android:theme="@style/Theme.UserDialog" />
+
+        <receiver android:name=".listener.PackageReplacedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver> <!-- [START gcm_receiver] -->
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="gcm.play.android.samples.com.gcmquickstart" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".listener.MyGcmListenerService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service> <!-- [END gcm_receiver] -->
+        <!-- [START instanceId_listener] -->
+        <service
+            android:name=".listener.MyInstanceIDListenerService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".listener.RegistrationIntentService"
+            android:exported="false" /> <!-- [END instanceId_listener] -->
+        <service android:name=".service.AppInfoUpdateService" />
+
+        <receiver android:name=".listener.PackageReplacedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".receiver.AlarmManagerReceiver"
+            android:enabled="true" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="75c37d0e2b6a44c542f74900fb4d622a69c390d9" />
+    </application>
+
+</manifest>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionbar_bg">#36333C</color>
+    <color name="app_divider_color">#D2D5D7</color>
+    <color name="app_status_bar_color">#F63440</color>
+    <color name="app_theme_color">#FF00fd</color>
+    <color name="black">#000000</color>
+    <color name="button_color">#0068b2</color>
+    <color name="colorAccent">#e11717</color>
+    <color name="colorActive">#777</color>
+    <color name="colorHighLight">#FCA321</color>
+    <color name="colorNormal">#777</color>
+    <color name="colorPrimary">#1d3748</color>
+    <color name="colorPrimaryDark">#d10202</color>
+    <color name="light_blcak">#777</color>
+    <color name="light_white">#f5f8fc</color>
+    <color name="login_transparent">#7c000000</color>
+    <color name="menutext">#555</color>
+    <color name="spinnerBg">#edeff1</color>
+    <color name="transparen">#04000000</color>
+    <color name="transparen_black">#4c000000</color>
+    <color name="transparen_black_light">#1c000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="action_bar_text_size">20sp</dimen>
+    <dimen name="toolbar_common_height">56dp</dimen>
+    <string name="app_name">theme</string>
+    <string name="demo_server">- Demo Server</string>
+    <string name="internet_failed_toast">Please check your internet connectivity</string>
+    <string name="loading">Loading</string>
+    <string name="local_server">- Local Server</string>
+    <string name="please_wait">Please wait</string>
+    <string name="version_name">Version :  </string>
+    <style name="AnimationTheme.Window" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_right_to_left</item>
+        <item name="android:activityOpenExitAnimation">@anim/static_anim</item>
+        <item name="android:activityCloseEnterAnimation">@anim/static_anim</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_left_to_right</item>
+    </style>
+    <style name="AppTheme" parent="Custome.Theme">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+        -->
+    </style>
+    <style name="AppTheme.DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:colorAccent">@color/colorPrimary</item>
+
+    </style>
+    <style name="Application.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowAnimationStyle">@style/AnimationTheme.Window</item>
+    </style>
+    <style name="BrainacTheme.ActionBar.TitleTextStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:text">@string/app_name</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:paddingLeft">5dp</item>
+    </style>
+    <style name="CMOptionsMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:popupBackground">@color/white</item>
+    </style>
+    <style name="Custom.Theme.Overflow" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/menu_icon</item>
+        <item name="android:windowAnimationStyle">@style/AnimationTheme.Window</item>
+    </style>
+    <style name="Custom.ToolbarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:background">@color/transparen</item>
+        <item name="drawerArrowStyle">@style/MyDrawerArrowToggle</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <item name="actionBarSize">@dimen/toolbar_common_height</item>
+        <item name="android:actionBarSize">@dimen/toolbar_common_height</item>
+        <item name="actionMenuTextAppearance">@style/Custom.ToolbarTheme.MenuTextAppearance</item>
+        <item name="android:actionOverflowButtonStyle">@style/Custom.Theme.Overflow</item>
+        <item name="actionOverflowButtonStyle">@style/Custom.Theme.Overflow</item>
+    </style>
+    <style name="Custom.ToolbarTheme.MenuTextAppearance" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Menu">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+</style>
+    <style name="Custome.Theme" parent="Theme.AppCompat.Light.NoActionBar"><!--
+        <item name="colorControlActivated">@color/blue_primary</item>-->
+        <item name="colorControlNormal">@color/light_white</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!--<item name="android:windowBackground">@android:color/black</item>-->
+        <!--<item name="titleTextStyle">@style/BrainacTheme.ActionBar.TitleTextStyle</item>-->
+        <!--<item name="android:buttonStyle">@style/AppThemeButton</item>-->
+        <!-- 	Below attribute is an fix for menu item background it may affect spinner background if we use spinner component in interior application -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:windowAnimationStyle">@style/AnimationTheme.Window</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+        <item name="android:colorControlNormal">@color/light_blcak</item>
+        <item name="actionOverflowMenuStyle">@style/CMOptionsMenu</item>
+        <item name="android:itemTextAppearance">@style/myCustomMenuTextApearance</item>
+    </style>
+    <style name="MyDrawerArrowToggle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/white</item>
+    </style>
+    <style name="about_us_text_content">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="myCustomMenuTextApearance" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">@color/menutext</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <declare-styleable name="AVLoadingIndicatorView">
+        <attr name="indicator">
+            <flag name="BallPulse" value="0"/>
+            <flag name="BallGridPulse" value="1"/>
+            <flag name="BallClipRotate" value="2"/>
+            <flag name="BallClipRotatePulse" value="3"/>
+            <flag name="SquareSpin" value="4"/>
+            <flag name="BallClipRotateMultiple" value="5"/>
+            <flag name="BallPulseRise" value="6"/>
+            <flag name="BallRotate" value="7"/>
+            <flag name="CubeTransition" value="8"/>
+            <flag name="BallZigZag" value="9"/>
+            <flag name="BallZigZagDeflect" value="10"/>
+            <flag name="BallTrianglePath" value="11"/>
+            <flag name="BallScale" value="12"/>
+            <flag name="LineScale" value="13"/>
+            <flag name="LineScaleParty" value="14"/>
+            <flag name="BallScaleMultiple" value="15"/>
+            <flag name="BallPulseSync" value="16"/>
+            <flag name="BallBeat" value="17"/>
+            <flag name="LineScalePulseOut" value="18"/>
+            <flag name="LineScalePulseOutRapid" value="19"/>
+            <flag name="BallScaleRipple" value="20"/>
+            <flag name="BallScaleRippleMultiple" value="21"/>
+            <flag name="BallSpinFadeLoader" value="22"/>
+            <flag name="LineSpinFadeLoader" value="23"/>
+            <flag name="TriangleSkewSpin" value="24"/>
+            <flag name="Pacman" value="25"/>
+            <flag name="BallGridBeat" value="26"/>
+            <flag name="SemiCircleSpin" value="27"/>
+        </attr>
+        <attr format="color" name="indicator_color"/>
+    </declare-styleable>
+    <declare-styleable name="MyTextView">
+        <attr format="string" name="fontName"/>
+    </declare-styleable>
+    <declare-styleable name="RevealTextView">
+        <attr format="string" name="fontNameReveal"/>
+        <attr format="integer" name="rtv_duration"/>
+        <attr name="android:text"/>
+    </declare-styleable>
+</resources>

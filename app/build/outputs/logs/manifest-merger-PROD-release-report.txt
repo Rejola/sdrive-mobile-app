@@ -1,0 +1,625 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:2:1-153:12
+INJECTED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:2:1-153:12
+INJECTED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:2:1-153:12
+INJECTED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:2:1-153:12
+MERGED from [:theme] D:\sdrive_work_shop_app\theme\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-gcm:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\10b633cb60a9eb0d6cc2c9f11bda4d11\play-services-gcm-15.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\9464566263580841b056b3f2c1651b5b\play-services-maps-15.0.0\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-iid:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\7e2e10351a0d3088da7b019c7a3b4352\play-services-iid-15.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e4049506e2496fd64839e38d05e238aa\play-services-auth-15.0.0\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\1422d3000b29d9d948f66ef5e931aff3\play-services-auth-api-phone-15.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\c852762d3c931ad9713db764010b3b4a\play-services-auth-base-15.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e27488c1fb6dc575c908df6f84847cfc\play-services-base-15.0.1\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\1190811c6625b3f658d9671442e1dce2\play-services-stats-15.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\23d67fa471f5fd461d479afbb660a916\play-services-tasks-15.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\a00d39f0ac0003674762a0141ded0388\play-services-basement-15.0.1\AndroidManifest.xml:17:1-28:12
+MERGED from [com.facebook.android:facebook-android-sdk:4.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\60fbee0dbf0a5f159b923c9ec7adbb94\facebook-android-sdk-4.0.0\AndroidManifest.xml:21:1-30:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\bbb1b28c7d13ac393ec3bbd61acc8e8c\support-v4-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-ui:1.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\ee19b2862a08c68cf73051ccc014d4d5\navigation-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\89bd1213cfe419d4b21e0552cc75bdb8\design-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [uk.co.chrisjenx:calligraphy:2.2.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\a95cb4398f355e1dbf19b3943057801a\calligraphy-2.2.0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\4ed417f19a817024437cb9d118381f7d\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\510496dc4701ed8913837b76dcf02443\constraint-layout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.navigation:navigation-fragment:1.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\2c01e8f745374ebcd6bc026735d4bfca\navigation-fragment-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\d00f61ce740e640f1654f0da152f262e\cardview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife:8.7.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\c5cca87de0d53408aeb888bcd60db9fe\butterknife-8.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\1fbd12b8b78867caf79fa89a041130a7\support-media-compat-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\212a356a18e5751b0a4caf82bfac114a\support-fragment-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\64e069bafe70f5a47fb693b54ffc7548\animated-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\8ddc2dacc49a5b3a3d1cb3fa40ae87f1\recyclerview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\3c57f23a999b8f6d7695334b537a0159\support-core-ui-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-runtime:1.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\0ec07c4d7e7028af4a745e9792988428\navigation-runtime-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\d4153efd900bcaccc939110a073b6c37\support-core-utils-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\f0863cf9489aed0edfd150b0af02b609\support-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e81dd643e4bb16a3a666a31bbae55329\transition-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\664a511127482cfbce6d3b054912c3ff\loader-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\7ce547a85c84248b5e1f9a6c3cb45515\viewpager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\bce20f5e49ccfda25a7c980cbf2515b2\coordinatorlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\aa1dceade23e8c42bd32b2c6c32968c6\drawerlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\3a4579a280fe261600056b86c63db022\slidingpanelayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\59cff4d9f94a1f6df44ffbb4a65ae33f\customview-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\6de22f50e657c04e74effb48c783a0eb\swiperefreshlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\422fddabc62f05daf3e1cf6da223cc86\asynclayoutinflater-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-common:1.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\ee8d9ff73384af54e9c4025f5c690b4b\navigation-common-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\4801c80ee2f26dea1786dc8f145e743b\support-compat-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\cebecc271c417829db1fe4fb9cad0b94\versionedparcelable-28.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\3ff037c53684cf090bb653963784ae8a\cursoradapter-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\14ea427161f19e5e8769d3acf1a5997b\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\b6631cbddcec170b069ecee6a1188a1d\documentfile-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\9a744f912d6bbfcc0a4ab34fc4cc8e3a\localbroadcastmanager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\f3f6f13cfe29f4bad39c607cd023f144\print-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\74937aaad5d4eab21a4ae8ffbcd7d8a1\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\1d41bf6359f088b3909213695c55ebd3\viewmodel-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\8053e15795d68eeb47cb96b0d4c84fed\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\1403e4892a6598773facfbef617d5d5a\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\20296effadc251487528e196e12af25e\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [:commonframework] D:\sdrive_work_shop_app\commonframework\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-19:12
+MERGED from [com.theartofdev.edmodo:android-image-cropper:1.2.6] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\44e89c0ad5d2245471dbb9da283ece87\android-image-cropper-1.2.6\AndroidManifest.xml:2:1-12:12
+MERGED from [:network] D:\sdrive_work_shop_app\network\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-17:12
+INJECTED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:2:1-153:12
+INJECTED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:2:1-153:12
+INJECTED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:2:1-153:12
+	package
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml
+		INJECTED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:2:1-153:12
+		INJECTED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:2:1-153:12
+		INJECTED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.android.gms:play-services-gcm:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\10b633cb60a9eb0d6cc2c9f11bda4d11\play-services-gcm-15.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-gcm:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\10b633cb60a9eb0d6cc2c9f11bda4d11\play-services-gcm-15.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\9464566263580841b056b3f2c1651b5b\play-services-maps-15.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\9464566263580841b056b3f2c1651b5b\play-services-maps-15.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\7e2e10351a0d3088da7b019c7a3b4352\play-services-iid-15.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\7e2e10351a0d3088da7b019c7a3b4352\play-services-iid-15.0.0\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:6:5-79
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\9464566263580841b056b3f2c1651b5b\play-services-maps-15.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\9464566263580841b056b3f2c1651b5b\play-services-maps-15.0.0\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.CALL_PHONE
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:9:5-69
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:9:22-66
+application
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:11:5-151:19
+MERGED from [:theme] D:\sdrive_work_shop_app\theme\build\intermediates\library_manifest\release\AndroidManifest.xml:11:5-15:19
+MERGED from [:theme] D:\sdrive_work_shop_app\theme\build\intermediates\library_manifest\release\AndroidManifest.xml:11:5-15:19
+MERGED from [com.google.android.gms:play-services-gcm:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\10b633cb60a9eb0d6cc2c9f11bda4d11\play-services-gcm-15.0.0\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-gcm:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\10b633cb60a9eb0d6cc2c9f11bda4d11\play-services-gcm-15.0.0\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\9464566263580841b056b3f2c1651b5b\play-services-maps-15.0.0\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\9464566263580841b056b3f2c1651b5b\play-services-maps-15.0.0\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-iid:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\7e2e10351a0d3088da7b019c7a3b4352\play-services-iid-15.0.0\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\7e2e10351a0d3088da7b019c7a3b4352\play-services-iid-15.0.0\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e4049506e2496fd64839e38d05e238aa\play-services-auth-15.0.0\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e4049506e2496fd64839e38d05e238aa\play-services-auth-15.0.0\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e27488c1fb6dc575c908df6f84847cfc\play-services-base-15.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e27488c1fb6dc575c908df6f84847cfc\play-services-base-15.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\1190811c6625b3f658d9671442e1dce2\play-services-stats-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\1190811c6625b3f658d9671442e1dce2\play-services-stats-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\23d67fa471f5fd461d479afbb660a916\play-services-tasks-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\23d67fa471f5fd461d479afbb660a916\play-services-tasks-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\a00d39f0ac0003674762a0141ded0388\play-services-basement-15.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\a00d39f0ac0003674762a0141ded0388\play-services-basement-15.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\60fbee0dbf0a5f159b923c9ec7adbb94\facebook-android-sdk-4.0.0\AndroidManifest.xml:28:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\60fbee0dbf0a5f159b923c9ec7adbb94\facebook-android-sdk-4.0.0\AndroidManifest.xml:28:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\89bd1213cfe419d4b21e0552cc75bdb8\design-28.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\89bd1213cfe419d4b21e0552cc75bdb8\design-28.0.0\AndroidManifest.xml:22:5-20
+MERGED from [uk.co.chrisjenx:calligraphy:2.2.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\a95cb4398f355e1dbf19b3943057801a\calligraphy-2.2.0\AndroidManifest.xml:11:5-20
+MERGED from [uk.co.chrisjenx:calligraphy:2.2.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\a95cb4398f355e1dbf19b3943057801a\calligraphy-2.2.0\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\510496dc4701ed8913837b76dcf02443\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\510496dc4701ed8913837b76dcf02443\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\4801c80ee2f26dea1786dc8f145e743b\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\4801c80ee2f26dea1786dc8f145e743b\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\cebecc271c417829db1fe4fb9cad0b94\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\cebecc271c417829db1fe4fb9cad0b94\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [:commonframework] D:\sdrive_work_shop_app\commonframework\build\intermediates\library_manifest\release\AndroidManifest.xml:13:5-17:19
+MERGED from [:commonframework] D:\sdrive_work_shop_app\commonframework\build\intermediates\library_manifest\release\AndroidManifest.xml:13:5-17:19
+MERGED from [:network] D:\sdrive_work_shop_app\network\build\intermediates\library_manifest\release\AndroidManifest.xml:11:5-15:19
+MERGED from [:network] D:\sdrive_work_shop_app\network\build\intermediates\library_manifest\release\AndroidManifest.xml:11:5-15:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\4801c80ee2f26dea1786dc8f145e743b\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:15:9-41
+	android:roundIcon
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:16:9-44
+	android:icon
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:14:9-39
+	android:allowBackup
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:18:9-40
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:12:9-46
+activity#com.creatah.automobile.dealer.activity.QuickSearch
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:19:9-67
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:19:19-55
+activity#com.creatah.automobile.dealer.activity.SplashActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:20:9-26:20
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:20:19-58
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:24:27-74
+activity#com.creatah.automobile.dealer.activity.LoginActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:27:9-29:58
+	android:windowSoftInputMode
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:29:13-55
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:28:13-51
+activity#com.creatah.automobile.dealer.activity.HomeActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:30:9-59
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:30:19-56
+activity#com.creatah.automobile.dealer.activity.EmployeeListActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:31:9-67
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:31:19-64
+activity#com.creatah.automobile.dealer.activity.ContactUsActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:32:9-64
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:32:19-61
+activity#com.creatah.automobile.dealer.activity.AddEmployeeActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:33:9-35:58
+	android:windowSoftInputMode
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:35:13-55
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:34:13-57
+activity#com.creatah.automobile.dealer.activity.EmployeeDetailsActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:36:9-70
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:36:19-67
+activity#com.creatah.automobile.dealer.activity.CompleteBookingActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:37:9-70
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:37:19-67
+activity#com.creatah.automobile.dealer.activity.MenuRatingListActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:38:9-69
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:38:19-66
+activity#com.creatah.automobile.dealer.activity.CompletedDetailsActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:39:9-71
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:39:19-68
+activity#com.creatah.automobile.dealer.activity.InProgerssBookingActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:40:9-72
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:40:19-69
+activity#com.creatah.automobile.dealer.activity.InstantServiceActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:41:9-69
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:41:19-66
+activity#com.creatah.automobile.dealer.activity.AddBookingActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:42:9-44:58
+	android:windowSoftInputMode
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:44:13-55
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:43:13-56
+activity#com.creatah.automobile.dealer.activity.DigitalSignatureActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:45:9-71
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:45:19-68
+activity#com.creatah.automobile.dealer.activity.AddSpareAndLabourActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:46:9-48:58
+	android:windowSoftInputMode
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:48:13-55
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:47:13-63
+activity#com.creatah.automobile.dealer.activity.AppUpdateActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:49:9-64
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:49:19-61
+activity#com.creatah.automobile.dealer.activity.EstimateActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:50:9-52:58
+	android:windowSoftInputMode
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:52:13-55
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:51:13-54
+activity#com.creatah.automobile.dealer.activity.CheckListActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:53:9-55:70
+	android:windowSoftInputMode
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:55:13-67
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:54:13-55
+activity#com.creatah.automobile.dealer.activity.VechileReadyActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:56:9-67
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:56:19-64
+activity#com.creatah.automobile.dealer.activity.DealerBookingsActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:57:9-69
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:57:19-66
+activity#com.creatah.automobile.dealer.activity.BookingDetailsActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:58:9-69
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:58:19-66
+activity#com.creatah.automobile.dealer.activity.ImageListActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:59:9-64
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:59:19-61
+activity#com.creatah.automobile.dealer.activity.ImageZoomActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:60:9-64
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:60:19-61
+activity#com.creatah.automobile.dealer.activity.AddRemainderActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:61:9-63:58
+	android:windowSoftInputMode
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:63:13-55
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:62:13-58
+activity#com.creatah.automobile.dealer.activity.ReminderListActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:64:9-67
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:64:19-64
+activity#com.creatah.automobile.dealer.activity.ReminderDetailsActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:65:9-70
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:65:19-67
+activity#com.creatah.automobile.dealer.activity.UserBookingActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:66:9-66
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:66:19-63
+activity#com.creatah.automobile.dealer.activity.ExistingBookingActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:67:9-70
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:67:19-67
+activity#com.creatah.automobile.dealer.activity.RatingsActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:68:9-62
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:68:19-59
+activity#com.creatah.automobile.dealer.activity.NewBookingActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:69:9-71:58
+	android:windowSoftInputMode
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:71:13-55
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:70:13-56
+activity#com.creatah.automobile.dealer.activity.RepairDescriptionActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:72:9-74:58
+	android:windowSoftInputMode
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:74:13-55
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:73:13-63
+activity#com.creatah.automobile.dealer.activity.ImageCropperActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:75:9-67
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:75:19-64
+activity#com.creatah.automobile.dealer.activity.AddActionActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:76:9-78:58
+	android:windowSoftInputMode
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:78:13-55
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:77:13-55
+activity#com.creatah.automobile.dealer.activity.VerifyCheckListActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:79:9-81:70
+	android:windowSoftInputMode
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:81:13-67
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:80:13-61
+activity#com.creatah.automobile.dealer.activity.UserBookingDetailActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:82:9-72
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:82:19-69
+activity#com.creatah.automobile.dealer.activity.InstantDetailsActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:83:9-69
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:83:19-66
+activity#com.creatah.automobile.dealer.activity.EnquiryDetailsActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:84:9-69
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:84:19-66
+activity#com.creatah.automobile.dealer.activity.CustomerListActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:85:9-67
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:85:19-64
+activity#com.creatah.automobile.dealer.activity.AboutUsActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:86:9-62
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:86:19-59
+activity#com.creatah.automobile.dealer.activity.AssignEmployeeActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:87:9-89:55
+	android:theme
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:89:13-52
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:88:13-60
+activity#com.creatah.automobile.dealer.activity.CaptureSignatureActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:90:9-92:55
+	android:theme
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:92:13-52
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:91:13-62
+activity#com.creatah.automobile.dealer.activity.WorkCheckListActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:93:9-68
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:93:19-65
+activity#com.creatah.automobile.dealer.activity.BillAmountActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:94:9-65
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:94:19-62
+activity#com.creatah.automobile.dealer.activity.CustomerSearchActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:95:9-69
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:95:19-66
+activity#com.creatah.automobile.dealer.activity.AddSubSpareLabourActivity
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:96:9-98:55
+	android:theme
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:98:13-52
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:97:13-63
+receiver#com.creatah.automobile.dealer.listener.PackageReplacedReceiver
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:100:9-104:20
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:100:19-67
+intent-filter#action:name:android.intent.action.MY_PACKAGE_REPLACED
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:101:13-103:29
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:102:17-84
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:102:25-81
+receiver#com.google.android.gms.gcm.GcmReceiver
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:105:9-114:20
+	android:exported
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:107:13-36
+	android:permission
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:108:13-73
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:106:13-66
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:gcm.play.android.samples.com.gcmquickstart
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:109:13-113:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:110:17-81
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:110:25-78
+category#gcm.play.android.samples.com.gcmquickstart
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:112:17-87
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:112:27-84
+service#com.creatah.automobile.dealer.listener.MyGcmListenerService
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:116:9-122:19
+	android:exported
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:118:13-37
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:117:13-58
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:119:13-121:29
+service#com.creatah.automobile.dealer.listener.MyInstanceIDListenerService
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:124:9-130:19
+	android:exported
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:126:13-37
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:125:13-65
+intent-filter#action:name:com.google.android.gms.iid.InstanceID
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:127:13-129:29
+action#com.google.android.gms.iid.InstanceID
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:128:17-80
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:128:25-77
+service#com.creatah.automobile.dealer.listener.RegistrationIntentService
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:131:9-133:40
+	android:exported
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:133:13-37
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:132:13-63
+service#com.creatah.automobile.dealer.service.AppInfoUpdateService
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:134:9-65
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:134:18-62
+receiver#com.creatah.automobile.dealer.receiver.AlarmManagerReceiver
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:141:9-143:38
+	android:enabled
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:143:13-35
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:142:13-58
+meta-data#com.google.android.geo.API_KEY
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:145:9-147:55
+	android:value
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:147:13-52
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:146:13-58
+meta-data#io.fabric.ApiKey
+ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:148:9-150:72
+	android:value
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:150:13-69
+	android:name
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:149:13-44
+uses-sdk
+INJECTED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml
+INJECTED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml
+MERGED from [:theme] D:\sdrive_work_shop_app\theme\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:theme] D:\sdrive_work_shop_app\theme\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-gcm:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\10b633cb60a9eb0d6cc2c9f11bda4d11\play-services-gcm-15.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\10b633cb60a9eb0d6cc2c9f11bda4d11\play-services-gcm-15.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\9464566263580841b056b3f2c1651b5b\play-services-maps-15.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\9464566263580841b056b3f2c1651b5b\play-services-maps-15.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\7e2e10351a0d3088da7b019c7a3b4352\play-services-iid-15.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\7e2e10351a0d3088da7b019c7a3b4352\play-services-iid-15.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e4049506e2496fd64839e38d05e238aa\play-services-auth-15.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e4049506e2496fd64839e38d05e238aa\play-services-auth-15.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\1422d3000b29d9d948f66ef5e931aff3\play-services-auth-api-phone-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\1422d3000b29d9d948f66ef5e931aff3\play-services-auth-api-phone-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\c852762d3c931ad9713db764010b3b4a\play-services-auth-base-15.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\c852762d3c931ad9713db764010b3b4a\play-services-auth-base-15.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e27488c1fb6dc575c908df6f84847cfc\play-services-base-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e27488c1fb6dc575c908df6f84847cfc\play-services-base-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\1190811c6625b3f658d9671442e1dce2\play-services-stats-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\1190811c6625b3f658d9671442e1dce2\play-services-stats-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\23d67fa471f5fd461d479afbb660a916\play-services-tasks-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\23d67fa471f5fd461d479afbb660a916\play-services-tasks-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\a00d39f0ac0003674762a0141ded0388\play-services-basement-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\a00d39f0ac0003674762a0141ded0388\play-services-basement-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-android-sdk:4.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\60fbee0dbf0a5f159b923c9ec7adbb94\facebook-android-sdk-4.0.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\60fbee0dbf0a5f159b923c9ec7adbb94\facebook-android-sdk-4.0.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\bbb1b28c7d13ac393ec3bbd61acc8e8c\support-v4-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\bbb1b28c7d13ac393ec3bbd61acc8e8c\support-v4-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-ui:1.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\ee19b2862a08c68cf73051ccc014d4d5\navigation-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-ui:1.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\ee19b2862a08c68cf73051ccc014d4d5\navigation-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\89bd1213cfe419d4b21e0552cc75bdb8\design-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\89bd1213cfe419d4b21e0552cc75bdb8\design-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [uk.co.chrisjenx:calligraphy:2.2.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\a95cb4398f355e1dbf19b3943057801a\calligraphy-2.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [uk.co.chrisjenx:calligraphy:2.2.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\a95cb4398f355e1dbf19b3943057801a\calligraphy-2.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\4ed417f19a817024437cb9d118381f7d\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\4ed417f19a817024437cb9d118381f7d\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\510496dc4701ed8913837b76dcf02443\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\510496dc4701ed8913837b76dcf02443\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.navigation:navigation-fragment:1.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\2c01e8f745374ebcd6bc026735d4bfca\navigation-fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-fragment:1.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\2c01e8f745374ebcd6bc026735d4bfca\navigation-fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\d00f61ce740e640f1654f0da152f262e\cardview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\d00f61ce740e640f1654f0da152f262e\cardview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:8.7.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\c5cca87de0d53408aeb888bcd60db9fe\butterknife-8.7.0\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.7.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\c5cca87de0d53408aeb888bcd60db9fe\butterknife-8.7.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\1fbd12b8b78867caf79fa89a041130a7\support-media-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\1fbd12b8b78867caf79fa89a041130a7\support-media-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\212a356a18e5751b0a4caf82bfac114a\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\212a356a18e5751b0a4caf82bfac114a\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\64e069bafe70f5a47fb693b54ffc7548\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\64e069bafe70f5a47fb693b54ffc7548\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\8ddc2dacc49a5b3a3d1cb3fa40ae87f1\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\8ddc2dacc49a5b3a3d1cb3fa40ae87f1\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\3c57f23a999b8f6d7695334b537a0159\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\3c57f23a999b8f6d7695334b537a0159\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-runtime:1.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\0ec07c4d7e7028af4a745e9792988428\navigation-runtime-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-runtime:1.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\0ec07c4d7e7028af4a745e9792988428\navigation-runtime-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\d4153efd900bcaccc939110a073b6c37\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\d4153efd900bcaccc939110a073b6c37\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\f0863cf9489aed0edfd150b0af02b609\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\f0863cf9489aed0edfd150b0af02b609\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e81dd643e4bb16a3a666a31bbae55329\transition-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e81dd643e4bb16a3a666a31bbae55329\transition-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\664a511127482cfbce6d3b054912c3ff\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\664a511127482cfbce6d3b054912c3ff\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\7ce547a85c84248b5e1f9a6c3cb45515\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\7ce547a85c84248b5e1f9a6c3cb45515\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\bce20f5e49ccfda25a7c980cbf2515b2\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\bce20f5e49ccfda25a7c980cbf2515b2\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\aa1dceade23e8c42bd32b2c6c32968c6\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\aa1dceade23e8c42bd32b2c6c32968c6\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\3a4579a280fe261600056b86c63db022\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\3a4579a280fe261600056b86c63db022\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\59cff4d9f94a1f6df44ffbb4a65ae33f\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\59cff4d9f94a1f6df44ffbb4a65ae33f\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\6de22f50e657c04e74effb48c783a0eb\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\6de22f50e657c04e74effb48c783a0eb\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\422fddabc62f05daf3e1cf6da223cc86\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\422fddabc62f05daf3e1cf6da223cc86\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-common:1.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\ee8d9ff73384af54e9c4025f5c690b4b\navigation-common-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-common:1.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\ee8d9ff73384af54e9c4025f5c690b4b\navigation-common-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\4801c80ee2f26dea1786dc8f145e743b\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\4801c80ee2f26dea1786dc8f145e743b\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\cebecc271c417829db1fe4fb9cad0b94\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\cebecc271c417829db1fe4fb9cad0b94\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\3ff037c53684cf090bb653963784ae8a\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\3ff037c53684cf090bb653963784ae8a\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\14ea427161f19e5e8769d3acf1a5997b\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\14ea427161f19e5e8769d3acf1a5997b\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\b6631cbddcec170b069ecee6a1188a1d\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\b6631cbddcec170b069ecee6a1188a1d\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\9a744f912d6bbfcc0a4ab34fc4cc8e3a\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\9a744f912d6bbfcc0a4ab34fc4cc8e3a\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\f3f6f13cfe29f4bad39c607cd023f144\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\f3f6f13cfe29f4bad39c607cd023f144\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\74937aaad5d4eab21a4ae8ffbcd7d8a1\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\74937aaad5d4eab21a4ae8ffbcd7d8a1\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\1d41bf6359f088b3909213695c55ebd3\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\1d41bf6359f088b3909213695c55ebd3\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\8053e15795d68eeb47cb96b0d4c84fed\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\8053e15795d68eeb47cb96b0d4c84fed\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\1403e4892a6598773facfbef617d5d5a\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\1403e4892a6598773facfbef617d5d5a\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\20296effadc251487528e196e12af25e\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\20296effadc251487528e196e12af25e\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [:commonframework] D:\sdrive_work_shop_app\commonframework\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:commonframework] D:\sdrive_work_shop_app\commonframework\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [com.theartofdev.edmodo:android-image-cropper:1.2.6] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\44e89c0ad5d2245471dbb9da283ece87\android-image-cropper-1.2.6\AndroidManifest.xml:8:5-10:41
+MERGED from [com.theartofdev.edmodo:android-image-cropper:1.2.6] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\44e89c0ad5d2245471dbb9da283ece87\android-image-cropper-1.2.6\AndroidManifest.xml:8:5-10:41
+MERGED from [:network] D:\sdrive_work_shop_app\network\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:network] D:\sdrive_work_shop_app\network\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+INJECTED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml
+INJECTED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml
+		INJECTED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml
+		ADDED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml
+		INJECTED from D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\10b633cb60a9eb0d6cc2c9f11bda4d11\play-services-gcm-15.0.0\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\7e2e10351a0d3088da7b019c7a3b4352\play-services-iid-15.0.0\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\7e2e10351a0d3088da7b019c7a3b4352\play-services-iid-15.0.0\AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\10b633cb60a9eb0d6cc2c9f11bda4d11\play-services-gcm-15.0.0\AndroidManifest.xml:23:22-79
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\9464566263580841b056b3f2c1651b5b\play-services-maps-15.0.0\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\9464566263580841b056b3f2c1651b5b\play-services-maps-15.0.0\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\9464566263580841b056b3f2c1651b5b\play-services-maps-15.0.0\AndroidManifest.xml:28:9-32
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e4049506e2496fd64839e38d05e238aa\play-services-auth-15.0.0\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e4049506e2496fd64839e38d05e238aa\play-services-auth-15.0.0\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e4049506e2496fd64839e38d05e238aa\play-services-auth-15.0.0\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e4049506e2496fd64839e38d05e238aa\play-services-auth-15.0.0\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e4049506e2496fd64839e38d05e238aa\play-services-auth-15.0.0\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e4049506e2496fd64839e38d05e238aa\play-services-auth-15.0.0\AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e4049506e2496fd64839e38d05e238aa\play-services-auth-15.0.0\AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e4049506e2496fd64839e38d05e238aa\play-services-auth-15.0.0\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e4049506e2496fd64839e38d05e238aa\play-services-auth-15.0.0\AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e27488c1fb6dc575c908df6f84847cfc\play-services-base-15.0.1\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e27488c1fb6dc575c908df6f84847cfc\play-services-base-15.0.1\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e27488c1fb6dc575c908df6f84847cfc\play-services-base-15.0.1\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e27488c1fb6dc575c908df6f84847cfc\play-services-base-15.0.1\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\a00d39f0ac0003674762a0141ded0388\play-services-basement-15.0.1\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\a00d39f0ac0003674762a0141ded0388\play-services-basement-15.0.1\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\a00d39f0ac0003674762a0141ded0388\play-services-basement-15.0.1\AndroidManifest.xml:24:13-58
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [:commonframework] D:\sdrive_work_shop_app\commonframework\build\intermediates\library_manifest\release\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from [:commonframework] D:\sdrive_work_shop_app\commonframework\build\intermediates\library_manifest\release\AndroidManifest.xml:11:22-78

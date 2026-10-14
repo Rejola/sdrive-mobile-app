@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">commonframework</string>
+    <string name="local_api_file_name">service_local.json</string>
+    <string name="app_not_available">Unable To Find App In Play Store!</string>
+    <string name="new_version_launched">New Version Released! </string>
+    <string name="latest_version">Please Update Your App To Latest Version</string>
+    <!--Button-->
+    <string name="update_button">Update</string>
+    <string name="cancel_button">Cancel</string>
+</resources>

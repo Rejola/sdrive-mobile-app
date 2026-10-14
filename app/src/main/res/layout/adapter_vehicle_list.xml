@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vehicleLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dp10"
+    android:orientation="vertical"
+    android:background="@drawable/buttonbggray"
+    android:padding="@dimen/dp10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/edittextwhitebg"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <com.android.theme.font.FontTextView
+                android:id="@+id/stateCode"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:gravity="center"
+                android:maxLength="2"
+                android:maxLines="1"
+                android:nextFocusForward="@+id/areaCode"
+                android:singleLine="true"
+                android:textAllCaps="true"
+                android:textColor="@color/text_color" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@color/text_color" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <com.android.theme.font.FontTextView
+                android:id="@+id/areaCode"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:gravity="center"
+                android:maxLength="2"
+                android:maxLines="1"
+                android:nextFocusForward="@+id/serialText"
+                android:singleLine="true"
+                android:textColor="@color/text_color" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/text_color" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <com.android.theme.font.FontTextView
+                android:id="@+id/serialText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:gravity="center"
+                android:maxLength="2"
+                android:maxLines="1"
+                android:nextFocusForward="@+id/serialNo"
+                android:singleLine="true"
+                android:textAllCaps="true"
+                android:textColor="@color/text_color" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/text_color" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4">
+
+            <com.android.theme.font.FontTextView
+                android:id="@+id/serialNo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:gravity="center"
+                android:maxLength="4"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/text_color" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.android.theme.font.FontTextView
+        android:id="@+id/makeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp40"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="@dimen/dp10"
+        android:background="@drawable/edittextwhitebg"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dp10"
+        android:textColor="@color/text_color" />
+
+    <com.android.theme.font.FontTextView
+        android:id="@+id/modalTextView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp40"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="@dimen/dp10"
+        android:background="@drawable/edittextwhitebg"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dp10"
+        android:textColor="@color/text_color" />
+
+    <com.android.theme.font.FontTextView
+        android:id="@+id/fuelTypeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp40"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="@dimen/dp10"
+        android:background="@drawable/edittextwhitebg"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dp10"
+        android:textColor="@color/text_color" />
+</LinearLayout>
+

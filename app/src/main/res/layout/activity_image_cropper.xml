@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.theartofdev.edmodo.cropper.CropImageView
+        android:id="@+id/CropImageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        custom:cropAspectRatioX="5"
+        custom:cropAspectRatioY="5"
+        custom:cropFixAspectRatio="true"
+        custom:cropScaleType="fitCenter"
+        custom:cropShape="rectangle"
+        android:layout_margin="10dp"/>
+
+    <com.android.theme.font.FontButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonprimaryeffect"
+        android:id="@+id/onCropImageClick"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:textAllCaps="false"
+        android:text="Apply"
+        android:textColor="@color/white" />
+
+</LinearLayout>

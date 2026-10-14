@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/dp10"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/selectItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <com.android.theme.font.FontTextView
+            android:id="@+id/descriptionEditText"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginRight="@dimen/dp5"
+            android:layout_weight="8"
+            android:background="@drawable/edittextbggray"
+            android:gravity="center_vertical"
+            android:hint="@string/description"
+            android:maxLines="1"
+            android:paddingLeft="@dimen/dp10"
+            android:singleLine="true" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".2"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/dp5"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/quantity"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:enabled="false"
+                />
+
+
+            <ImageView
+                android:id="@+id/spareIcon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="@dimen/dp5"
+                android:padding="@dimen/dp3"
+                android:src="@drawable/spare_select"
+                android:visibility="gone"/>
+
+            <ImageView
+
+                android:id="@+id/serviceCompletedIcon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="@dimen/dp3"
+                android:src="@drawable/work_select"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

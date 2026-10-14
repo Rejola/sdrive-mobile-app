@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "com.sdrive.workshop.app.dev",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "INSTANT_APP_MANIFEST"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 12,
+        "versionName": "1.12",
+        "outputFile": "app-DEV-debug.apk",
+        "fullName": "DEVDebug",
+        "baseName": "DEV-debug",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "com.sdrive.workshop.app.dev",
+        "split": "",
+        "minSdkVersion": "21"
+      }
+    }
+  ]
+}

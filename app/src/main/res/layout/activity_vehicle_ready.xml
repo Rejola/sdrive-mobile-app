@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/dp20"
+            android:paddingRight="@dimen/dp20">
+
+
+            <com.android.theme.font.FontEdittext
+                android:id="@+id/amount"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edittextbggray"
+                android:inputType="number"
+                android:textSize="@dimen/sp14"
+                android:hint="@string/finalAmt"
+                android:padding="10dp" />
+
+
+            <com.android.theme.font.FontEdittext
+                android:id="@+id/deliveryDate"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittextbggray"
+                android:hint="@string/finaldeliveryDate"
+                android:textSize="@dimen/sp14"
+                android:padding="10dp" />
+
+            <com.android.theme.font.FontEdittext
+                android:id="@+id/deliveryTime"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="@dimen/sp14"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittextbggray"
+                android:hint="@string/timedeliveryDate"
+                android:padding="10dp" />
+
+            <com.android.theme.font.FontEdittext
+                android:id="@+id/dnxServiceDate"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:textSize="@dimen/sp14"
+                android:background="@drawable/edittextbggray"
+                android:hint="@string/nextservice"
+                android:padding="10dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="@dimen/dp5">
+
+            <com.android.theme.font.FontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/vehicleDrop"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/dp20">
+
+                <RadioButton
+                    android:id="@+id/yes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:text="@string/yes" />
+
+                <RadioButton
+                    android:id="@+id/no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:checked="true"
+                    android:text="@string/no" />
+
+            </RadioGroup>
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/buttonprimaryeffect"
+                android:text="@string/submit"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

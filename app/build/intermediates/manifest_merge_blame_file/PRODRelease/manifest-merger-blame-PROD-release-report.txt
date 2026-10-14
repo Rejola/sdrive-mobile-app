@@ -1,0 +1,392 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sdrive.workshop.app"
+4    android:versionCode="12"
+5    android:versionName="1.12" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:6:5-79
+12-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:7:5-80
+13-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:7:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:8:5-81
+14-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.CALL_PHONE" />
+15-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:9:5-69
+15-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:9:22-66
+16
+17    <!-- Required by older versions of Google Play services to create GCM registration tokens -->
+18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+18-->[com.google.android.gms:play-services-gcm:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\10b633cb60a9eb0d6cc2c9f11bda4d11\play-services-gcm-15.0.0\AndroidManifest.xml:23:5-82
+18-->[com.google.android.gms:play-services-gcm:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\10b633cb60a9eb0d6cc2c9f11bda4d11\play-services-gcm-15.0.0\AndroidManifest.xml:23:22-79
+19
+20    <uses-feature
+20-->[com.google.android.gms:play-services-maps:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\9464566263580841b056b3f2c1651b5b\play-services-maps-15.0.0\AndroidManifest.xml:26:5-28:35
+21        android:glEsVersion="0x00020000"
+21-->[com.google.android.gms:play-services-maps:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\9464566263580841b056b3f2c1651b5b\play-services-maps-15.0.0\AndroidManifest.xml:27:9-41
+22        android:required="true" />
+22-->[com.google.android.gms:play-services-maps:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\9464566263580841b056b3f2c1651b5b\play-services-maps-15.0.0\AndroidManifest.xml:28:9-32
+23
+24    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+24-->[:commonframework] D:\sdrive_work_shop_app\commonframework\build\intermediates\library_manifest\release\AndroidManifest.xml:11:5-81
+24-->[:commonframework] D:\sdrive_work_shop_app\commonframework\build\intermediates\library_manifest\release\AndroidManifest.xml:11:22-78
+25
+26    <application
+26-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:11:5-151:19
+27        android:name="com.creatah.automobile.dealer.AutomobileApplication"
+27-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:12:9-46
+28        android:allowBackup="true"
+28-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:13:9-35
+29        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+29-->[com.android.support:support-compat:28.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\4801c80ee2f26dea1786dc8f145e743b\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+30        android:icon="@mipmap/appicon"
+30-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:14:9-39
+31        android:label="@string/app_name"
+31-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:15:9-41
+32        android:roundIcon="@mipmap/appicon"
+32-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:16:9-44
+33        android:supportsRtl="true"
+33-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:17:9-35
+34        android:theme="@style/AppTheme" >
+34-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:18:9-40
+35        <activity android:name="com.creatah.automobile.dealer.activity.QuickSearch" />
+35-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:19:9-67
+35-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:19:19-55
+36        <activity android:name="com.creatah.automobile.dealer.activity.SplashActivity" >
+36-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:20:9-26:20
+36-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:20:19-58
+37            <intent-filter>
+37-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:21:13-25:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:22:17-69
+38-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:22:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:24:17-77
+40-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:24:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:27:9-29:58
+44            android:name="com.creatah.automobile.dealer.activity.LoginActivity"
+44-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:28:13-51
+45            android:windowSoftInputMode="adjustResize" />
+45-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:29:13-55
+46        <activity android:name="com.creatah.automobile.dealer.activity.HomeActivity" />
+46-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:30:9-59
+46-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:30:19-56
+47        <activity android:name="com.creatah.automobile.dealer.activity.EmployeeListActivity" />
+47-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:31:9-67
+47-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:31:19-64
+48        <activity android:name="com.creatah.automobile.dealer.activity.ContactUsActivity" />
+48-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:32:9-64
+48-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:32:19-61
+49        <activity
+49-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:33:9-35:58
+50            android:name="com.creatah.automobile.dealer.activity.AddEmployeeActivity"
+50-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:34:13-57
+51            android:windowSoftInputMode="adjustResize" />
+51-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:35:13-55
+52        <activity android:name="com.creatah.automobile.dealer.activity.EmployeeDetailsActivity" />
+52-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:36:9-70
+52-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:36:19-67
+53        <activity android:name="com.creatah.automobile.dealer.activity.CompleteBookingActivity" />
+53-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:37:9-70
+53-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:37:19-67
+54        <activity android:name="com.creatah.automobile.dealer.activity.MenuRatingListActivity" />
+54-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:38:9-69
+54-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:38:19-66
+55        <activity android:name="com.creatah.automobile.dealer.activity.CompletedDetailsActivity" />
+55-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:39:9-71
+55-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:39:19-68
+56        <activity android:name="com.creatah.automobile.dealer.activity.InProgerssBookingActivity" />
+56-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:40:9-72
+56-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:40:19-69
+57        <activity android:name="com.creatah.automobile.dealer.activity.InstantServiceActivity" />
+57-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:41:9-69
+57-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:41:19-66
+58        <activity
+58-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:42:9-44:58
+59            android:name="com.creatah.automobile.dealer.activity.AddBookingActivity"
+59-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:43:13-56
+60            android:windowSoftInputMode="adjustResize" />
+60-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:44:13-55
+61        <activity android:name="com.creatah.automobile.dealer.activity.DigitalSignatureActivity" />
+61-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:45:9-71
+61-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:45:19-68
+62        <activity
+62-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:46:9-48:58
+63            android:name="com.creatah.automobile.dealer.activity.AddSpareAndLabourActivity"
+63-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:47:13-63
+64            android:windowSoftInputMode="adjustResize" />
+64-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:48:13-55
+65        <activity android:name="com.creatah.automobile.dealer.activity.AppUpdateActivity" />
+65-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:49:9-64
+65-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:49:19-61
+66        <activity
+66-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:50:9-52:58
+67            android:name="com.creatah.automobile.dealer.activity.EstimateActivity"
+67-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:51:13-54
+68            android:windowSoftInputMode="adjustResize" />
+68-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:52:13-55
+69        <activity
+69-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:53:9-55:70
+70            android:name="com.creatah.automobile.dealer.activity.CheckListActivity"
+70-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:54:13-55
+71            android:windowSoftInputMode="stateUnchanged|adjustPan" />
+71-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:55:13-67
+72        <activity android:name="com.creatah.automobile.dealer.activity.VechileReadyActivity" />
+72-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:56:9-67
+72-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:56:19-64
+73        <activity android:name="com.creatah.automobile.dealer.activity.DealerBookingsActivity" />
+73-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:57:9-69
+73-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:57:19-66
+74        <activity android:name="com.creatah.automobile.dealer.activity.BookingDetailsActivity" />
+74-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:58:9-69
+74-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:58:19-66
+75        <activity android:name="com.creatah.automobile.dealer.activity.ImageListActivity" />
+75-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:59:9-64
+75-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:59:19-61
+76        <activity android:name="com.creatah.automobile.dealer.activity.ImageZoomActivity" />
+76-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:60:9-64
+76-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:60:19-61
+77        <activity
+77-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:61:9-63:58
+78            android:name="com.creatah.automobile.dealer.activity.AddRemainderActivity"
+78-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:62:13-58
+79            android:windowSoftInputMode="adjustResize" />
+79-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:63:13-55
+80        <activity android:name="com.creatah.automobile.dealer.activity.ReminderListActivity" />
+80-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:64:9-67
+80-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:64:19-64
+81        <activity android:name="com.creatah.automobile.dealer.activity.ReminderDetailsActivity" />
+81-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:65:9-70
+81-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:65:19-67
+82        <activity android:name="com.creatah.automobile.dealer.activity.UserBookingActivity" />
+82-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:66:9-66
+82-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:66:19-63
+83        <activity android:name="com.creatah.automobile.dealer.activity.ExistingBookingActivity" />
+83-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:67:9-70
+83-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:67:19-67
+84        <activity android:name="com.creatah.automobile.dealer.activity.RatingsActivity" /> <!-- <activity android:name=".activity.RatingsDetailsActivity" /> -->
+84-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:68:9-62
+84-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:68:19-59
+85        <activity
+85-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:69:9-71:58
+86            android:name="com.creatah.automobile.dealer.activity.NewBookingActivity"
+86-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:70:13-56
+87            android:windowSoftInputMode="adjustResize" />
+87-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:71:13-55
+88        <activity
+88-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:72:9-74:58
+89            android:name="com.creatah.automobile.dealer.activity.RepairDescriptionActivity"
+89-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:73:13-63
+90            android:windowSoftInputMode="adjustResize" />
+90-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:74:13-55
+91        <activity android:name="com.creatah.automobile.dealer.activity.ImageCropperActivity" />
+91-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:75:9-67
+91-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:75:19-64
+92        <activity
+92-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:76:9-78:58
+93            android:name="com.creatah.automobile.dealer.activity.AddActionActivity"
+93-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:77:13-55
+94            android:windowSoftInputMode="adjustResize" />
+94-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:78:13-55
+95        <activity
+95-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:79:9-81:70
+96            android:name="com.creatah.automobile.dealer.activity.VerifyCheckListActivity"
+96-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:80:13-61
+97            android:windowSoftInputMode="stateUnchanged|adjustPan" />
+97-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:81:13-67
+98        <activity android:name="com.creatah.automobile.dealer.activity.UserBookingDetailActivity" />
+98-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:82:9-72
+98-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:82:19-69
+99        <activity android:name="com.creatah.automobile.dealer.activity.InstantDetailsActivity" />
+99-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:83:9-69
+99-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:83:19-66
+100        <activity android:name="com.creatah.automobile.dealer.activity.EnquiryDetailsActivity" />
+100-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:84:9-69
+100-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:84:19-66
+101        <activity android:name="com.creatah.automobile.dealer.activity.CustomerListActivity" />
+101-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:85:9-67
+101-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:85:19-64
+102        <activity android:name="com.creatah.automobile.dealer.activity.AboutUsActivity" />
+102-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:86:9-62
+102-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:86:19-59
+103        <activity
+103-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:87:9-89:55
+104            android:name="com.creatah.automobile.dealer.activity.AssignEmployeeActivity"
+104-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:88:13-60
+105            android:theme="@style/Theme.UserDialog" />
+105-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:89:13-52
+106        <activity
+106-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:90:9-92:55
+107            android:name="com.creatah.automobile.dealer.activity.CaptureSignatureActivity"
+107-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:91:13-62
+108            android:theme="@style/Theme.UserDialog" />
+108-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:92:13-52
+109        <activity android:name="com.creatah.automobile.dealer.activity.WorkCheckListActivity" />
+109-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:93:9-68
+109-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:93:19-65
+110        <activity android:name="com.creatah.automobile.dealer.activity.BillAmountActivity" />
+110-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:94:9-65
+110-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:94:19-62
+111        <activity android:name="com.creatah.automobile.dealer.activity.CustomerSearchActivity" />
+111-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:95:9-69
+111-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:95:19-66
+112        <activity
+112-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:96:9-98:55
+113            android:name="com.creatah.automobile.dealer.activity.AddSubSpareLabourActivity"
+113-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:97:13-63
+114            android:theme="@style/Theme.UserDialog" />
+114-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:98:13-52
+115
+116        <receiver android:name="com.creatah.automobile.dealer.listener.PackageReplacedReceiver" >
+116-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:100:9-104:20
+116-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:100:19-67
+117            <intent-filter>
+117-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:101:13-103:29
+118                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+118-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:102:17-84
+118-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:102:25-81
+119            </intent-filter>
+120        </receiver> <!-- [START gcm_receiver] -->
+121        <receiver
+121-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:105:9-114:20
+122            android:name="com.google.android.gms.gcm.GcmReceiver"
+122-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:106:13-66
+123            android:exported="true"
+123-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:107:13-36
+124            android:permission="com.google.android.c2dm.permission.SEND" >
+124-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:108:13-73
+125            <intent-filter>
+125-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:109:13-113:29
+126                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+126-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:110:17-81
+126-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:110:25-78
+127
+128                <category android:name="gcm.play.android.samples.com.gcmquickstart" />
+128-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:112:17-87
+128-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:112:27-84
+129            </intent-filter>
+130        </receiver>
+131
+132        <service
+132-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:116:9-122:19
+133            android:name="com.creatah.automobile.dealer.listener.MyGcmListenerService"
+133-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:117:13-58
+134            android:exported="false" >
+134-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:118:13-37
+135            <intent-filter>
+135-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:119:13-121:29
+136                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+136-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:110:17-81
+136-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:110:25-78
+137            </intent-filter>
+138        </service> <!-- [END gcm_receiver] -->
+139        <!-- [START instanceId_listener] -->
+140        <service
+140-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:124:9-130:19
+141            android:name="com.creatah.automobile.dealer.listener.MyInstanceIDListenerService"
+141-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:125:13-65
+142            android:exported="false" >
+142-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:126:13-37
+143            <intent-filter>
+143-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:127:13-129:29
+144                <action android:name="com.google.android.gms.iid.InstanceID" />
+144-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:128:17-80
+144-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:128:25-77
+145            </intent-filter>
+146        </service>
+147        <service
+147-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:131:9-133:40
+148            android:name="com.creatah.automobile.dealer.listener.RegistrationIntentService"
+148-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:132:13-63
+149            android:exported="false" /> <!-- [END instanceId_listener] -->
+149-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:133:13-37
+150        <service android:name="com.creatah.automobile.dealer.service.AppInfoUpdateService" />
+150-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:134:9-65
+150-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:134:18-62
+151
+152        <receiver android:name="com.creatah.automobile.dealer.listener.PackageReplacedReceiver" >
+152-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:100:9-104:20
+152-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:100:19-67
+153            <intent-filter>
+153-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:101:13-103:29
+154                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+154-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:102:17-84
+154-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:102:25-81
+155            </intent-filter>
+156        </receiver>
+157        <receiver
+157-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:141:9-143:38
+158            android:name="com.creatah.automobile.dealer.receiver.AlarmManagerReceiver"
+158-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:142:13-58
+159            android:enabled="true" />
+159-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:143:13-35
+160
+161        <meta-data
+161-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:145:9-147:55
+162            android:name="com.google.android.geo.API_KEY"
+162-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:146:13-58
+163            android:value="@string/google_maps_key" />
+163-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:147:13-52
+164        <meta-data
+164-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:148:9-150:72
+165            android:name="io.fabric.ApiKey"
+165-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:149:13-44
+166            android:value="75c37d0e2b6a44c542f74900fb4d622a69c390d9" />
+166-->D:\sdrive_work_shop_app\app\src\main\AndroidManifest.xml:150:13-69
+167
+168        <activity
+168-->[com.google.android.gms:play-services-auth:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e4049506e2496fd64839e38d05e238aa\play-services-auth-15.0.0\AndroidManifest.xml:23:9-27:75
+169            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+169-->[com.google.android.gms:play-services-auth:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e4049506e2496fd64839e38d05e238aa\play-services-auth-15.0.0\AndroidManifest.xml:24:13-93
+170            android:excludeFromRecents="true"
+170-->[com.google.android.gms:play-services-auth:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e4049506e2496fd64839e38d05e238aa\play-services-auth-15.0.0\AndroidManifest.xml:25:13-46
+171            android:exported="false"
+171-->[com.google.android.gms:play-services-auth:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e4049506e2496fd64839e38d05e238aa\play-services-auth-15.0.0\AndroidManifest.xml:26:13-37
+172            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+172-->[com.google.android.gms:play-services-auth:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e4049506e2496fd64839e38d05e238aa\play-services-auth-15.0.0\AndroidManifest.xml:27:13-72
+173        <!--
+174            Service handling Google Sign-In user revocation. For apps that do not integrate with
+175            Google Sign-In, this service will never be started.
+176        -->
+177        <service
+177-->[com.google.android.gms:play-services-auth:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e4049506e2496fd64839e38d05e238aa\play-services-auth-15.0.0\AndroidManifest.xml:33:9-36:110
+178            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+178-->[com.google.android.gms:play-services-auth:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e4049506e2496fd64839e38d05e238aa\play-services-auth-15.0.0\AndroidManifest.xml:34:13-89
+179            android:exported="true"
+179-->[com.google.android.gms:play-services-auth:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e4049506e2496fd64839e38d05e238aa\play-services-auth-15.0.0\AndroidManifest.xml:35:13-36
+180            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+180-->[com.google.android.gms:play-services-auth:15.0.0] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e4049506e2496fd64839e38d05e238aa\play-services-auth-15.0.0\AndroidManifest.xml:36:13-107
+181
+182        <activity
+182-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e27488c1fb6dc575c908df6f84847cfc\play-services-base-15.0.1\AndroidManifest.xml:23:9-26:75
+183            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+183-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e27488c1fb6dc575c908df6f84847cfc\play-services-base-15.0.1\AndroidManifest.xml:24:13-79
+184            android:exported="false"
+184-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e27488c1fb6dc575c908df6f84847cfc\play-services-base-15.0.1\AndroidManifest.xml:25:13-37
+185            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+185-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\e27488c1fb6dc575c908df6f84847cfc\play-services-base-15.0.1\AndroidManifest.xml:26:13-72
+186
+187        <meta-data
+187-->[com.google.android.gms:play-services-basement:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\a00d39f0ac0003674762a0141ded0388\play-services-basement-15.0.1\AndroidManifest.xml:23:9-25:69
+188            android:name="com.google.android.gms.version"
+188-->[com.google.android.gms:play-services-basement:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\a00d39f0ac0003674762a0141ded0388\play-services-basement-15.0.1\AndroidManifest.xml:24:13-58
+189            android:value="@integer/google_play_services_version" />
+189-->[com.google.android.gms:play-services-basement:15.0.1] C:\Users\Hari Prasath HP\.gradle\caches\transforms-2\files-2.1\a00d39f0ac0003674762a0141ded0388\play-services-basement-15.0.1\AndroidManifest.xml:25:13-66
+190    </application>
+191
+192</manifest>

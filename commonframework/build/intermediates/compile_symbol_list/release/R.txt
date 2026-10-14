@@ -1,0 +1,7 @@
+int string app_name 0x0
+int string app_not_available 0x0
+int string cancel_button 0x0
+int string latest_version 0x0
+int string local_api_file_name 0x0
+int string new_version_launched 0x0
+int string update_button 0x0

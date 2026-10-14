@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "com.sdrive.workshop.app",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "BUNDLE_MANIFEST"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 12,
+        "versionName": "1.12",
+        "outputFile": "app-PROD-release.apk",
+        "fullName": "PRODRelease",
+        "baseName": "PROD-release",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "com.sdrive.workshop.app",
+        "split": "",
+        "minSdkVersion": "15"
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "187726740124",
+    "firebase_url": "https://aiawa-dealer.firebaseio.com",
+    "project_id": "aiawa-dealer",
+    "storage_bucket": "aiawa-dealer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187726740124:android:dd62ebfdf98a1515",
+        "android_client_info": {
+          "package_name": "com.aiawa.dealer.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187726740124-fh03457ljo3eej56cocn26pdfrine6ja.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aiawa.dealer.app",
+            "certificate_hash": "9ab6d17fdf4c3d7847e42c69bb65dd065b720259"
+          }
+        },
+        {
+          "client_id": "187726740124-c8ra8s6l6i2ed8vkivft35ip8mp03s6r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgigiibKqlLLu_bdm8VlihAUjB3sYOdeE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "187726740124-c8ra8s6l6i2ed8vkivft35ip8mp03s6r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
